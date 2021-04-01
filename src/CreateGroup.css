@@ -1,0 +1,51 @@
+.Topname{
+    margin-top: 48px;
+    margin-left: 48px;
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2F4050;
+}
+
+.GroupName{
+    margin-top: 81px;
+    margin-left: 188px;
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-weight: Regular;
+    color: #2F4050;
+}
+
+.Gform-control {
+    margin-left: 506px;
+    display: block;
+    width: 788px;
+    height: 50px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /* border-radius: 0; */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 10px;
+}
+
+.Member{
+    padding-top: 50px;
+}
+
+.Advistor{
+    padding-top: 50px;
+}
+
+
+.btn-outline-danger {
+    margin-top: 50px;
+}
+
+.btn-outline-secondary{
+    margin-top: 50px;
+    margin-left: 5px;
+}
