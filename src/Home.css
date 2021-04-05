@@ -45,13 +45,43 @@
     border-radius: 25px;
 }
 
-.blockblue{
-    background-color: #F3F9FC;
-    border-radius: 25px;
-    width: 932px;
-    height: 420px;
+.block1{
+    margin-top: 38px;
     margin-left: 48px;
-    margin-top: 174px;
+    color: #134F71;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: SF Pro Display;
+}
+
+.block2{
+    margin-top: -20px;
+    margin-left: 48px;
+    color: #ADADAD;
+    font-size: 30px;
+    font-family: SF Pro Display;
+}
+
+span.a {
+    display: inline-block;
+    width: 895px;
+    height: 420px;
+    background-color:  #F3F9FC; 
+    border-radius: 25px;
+    margin-left: 48px;
+    margin-top: 47px;
+}
+
+span.b {
+    display: inline-block;
+    width: 525px;
+    height: 200px;
+    border: 1px solid #134F71;    
+    background-color:  #F3F9FC; 
+    border-radius: 25px;
+    margin-right: 48px;
+    margin-top: 47px;
+    margin-left: 66px;
 }
 
 .cs{
@@ -62,3 +92,18 @@
     font-size: 40px;
     font-family: SF Pro Display;
 }
+
+.cs1, .cs2, .cs3{
+    padding-top: 4px;
+    padding-left: 38px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: SF Pro Display;
+}
+
+.pdf1{
+    padding-left: 86px;
+    padding-top: 32px;
+}
+
