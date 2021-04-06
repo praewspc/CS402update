@@ -34,8 +34,8 @@
 }
 
 .blockwhite{
-    height: 876px;
-    width: 1588px;
+    height: 930px;
+    width: 1715px;
     background-color: white;
     margin-left: 42px;
     margin-top: 14px;
@@ -48,19 +48,40 @@
 .block1{
     margin-top: 38px;
     margin-left: 48px;
-    color: #134F71;
+}
+
+.hello{
     font-size: 44px;
+    width: 249px;
+    height: 53px;
+    color: #134F71;
     font-weight: bold;
+    font-family: SF Pro Display;
+}
+
+.welcome{
+    font-size: 30px;
+    width: 192px;
+    height: 36px;
+    color: #ADADAD;
     font-family: SF Pro Display;
 }
 
 .block2{
     margin-top: -20px;
     margin-left: 48px;
-    color: #ADADAD;
+}
+
+.block3{
+    margin-top: 50px;
+    margin-left: 48px;
+    color: #134F71;
     font-size: 30px;
+    font-weight: bold;
     font-family: SF Pro Display;
 }
+
+
 
 span.a {
     display: inline-block;
@@ -103,7 +124,7 @@ span.b {
 }
 
 .pdf1{
-    padding-left: 86px;
-    padding-top: 32px;
+    top: 2px;
+    position: relative;
+    left: 80px;
 }
-

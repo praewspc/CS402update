@@ -1,6 +1,7 @@
-html , body , #root , .Login , .landing{
-    width: 100vw;
-    height: 100vh;
+html , body , #root , .Login , .landing {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
   }
   
   .row {
@@ -24,85 +25,59 @@ html , body , #root , .Login , .landing{
     padding-left: 15px;
     
   }
-  
-  img{
-    top: 337px;
-    left: 215px;
-    bottom: 337px;
-    /*width: 745px;*/
-    /*height: 406px;*/
-    
-  }
-  .loginrightblock {
-    width: 724px;
-    height: 515px;
-    position: center;
-  }
-  
+
   .center {
     display: block;
-    margin-top: 337px;
-    width: 745px;
-    height: 406px;
-    margin-left: 200px;
+    margin-left: 106px;
+    margin-right: 106px;
+    width: 748px;
+    height: 40%;
+    position: absolute;
+    top: 250px;
+    
+    
   }
-  
-  
+
   
   .topic1 {
-    width: 724.00px;
-      height: 72px;
-      left: 1106px;
-    text-align: center;
-    font-family: SF Pro Display;
-    font-weight: bold;
-    font-size: 60px;
-    color: #134F71;
-    padding-top: 200px;
-    padding-left: 220px;
+      width: 408px;
+      height: 71px;
+      text-align: center;
+      font-family: SF Pro Display;
+      font-weight: bold;
+      font-size: 50px;
+      color: #134F71;
+      
       
   }
   
-  form{
-   padding-top: 120px;
+  .right{
    display: inline-block;
-   padding-left: 260px;
+   left: 900px ;
+   position: absolute;
+  top: 80px;
+    
   }
   
-  .form-control {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    /* border-radius: 0; */
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    
-  }
+  
   
   .labelname {
-    font-size: 28px;
+    font-size: 20px;
     color: #134F71;
     font-family: SF Pro Display;
     font-weight: medium;
-    
+    padding-top: 30px;
   }
   
   input#formBasicUsername {
-    font-size: 24px;
+    font-size: 16px;
     width: 428px;
     height: 55px;
     
   }
   
   .labelpassword {
-    font-size: 28px;
+    font-size: 20px;
     color: #134F71;
     font-family: SF Pro Display;
     font-weight: medium;
@@ -110,7 +85,7 @@ html , body , #root , .Login , .landing{
   }
   
   input#formBasicPassword {
-    font-size: 24px;
+    font-size: 16px;
     width: 428px;
     height: 55px;
     
@@ -125,7 +100,7 @@ html , body , #root , .Login , .landing{
   
   .labelcheck{
     
-    font-size: 28px;
+    font-size: 20px;
     color: #134F71;
     margin-top: 47px;
   }
@@ -141,8 +116,9 @@ html , body , #root , .Login , .landing{
   
   .btnLogin{
     
-    margin-top: 52px;
+    margin-top: 30px;
     width: 328px;
     height: 72px;
     margin-left: 50px;
+    border-radius: 23px;
   }

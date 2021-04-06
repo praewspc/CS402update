@@ -2,24 +2,38 @@ import React from 'react';
 
 import {Row , Col} from 'react-bootstrap';
 
+import { FaSearch } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa";
+
 function BlockHome(){
     return (
         <div className="rightblock">
 
-            <div className="blockwhite">
+<div className="blockwhite">
                 
                 <div classname="block top">
-                    
+                    <Row>
+                        <Col>
+                            <div className="block1">
+                                <p className="hello">Hello, Phurit</p>
+                            </div>
+
+                            <div className="block2">
+                                <p className="welcome">Welcome back</p>
+                            </div>
+
+                            
+                        </Col>
+                        <Col>
+                            <div className="block3">
+                                        <FaSearch />
+                                        <p classname="Phurit">Phurit Apichonlati</p>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
 
-                <div className="block1">
-                    <p className="hello">Hello, Phurit</p>
-                </div>
-
-                <div className="block2">
-                    <p className="welcome">Welcome back</p>
-                </div>
+                
 
                 <div>
                     <span class="a">

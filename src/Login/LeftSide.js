@@ -1,11 +1,11 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
 
-const LeftSide = () => {
+function LeftSide  () {
     return (
         <div className="pic">
            
-            <img src="./img/picLogin.svg" class="center" ></img>
+            <img src="./img/picLogin.svg" alt="Paris"class="center" ></img>
             
         </div>
     )
