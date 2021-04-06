@@ -31,6 +31,11 @@ body {
   font-family: 'SF Pro Display' ;
   font-size: 22px;
   text-align: center;
+  bottom: 30px;
+}
+
+.Line{
+  color: white;
 }
 
 .SidebarList{
@@ -38,7 +43,6 @@ body {
   padding: 0;
   width: 100%;
   font-family: 'SF Pro Display' ;
-  padding-top: 53px;
   font-size: 20px;
   
 }
@@ -80,4 +84,12 @@ body {
 .row #title{
   flex: 70%;
   
+}
+
+hr.solid {
+  width: 244px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }

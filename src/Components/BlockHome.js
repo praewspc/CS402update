@@ -9,7 +9,7 @@ function BlockHome(){
     return (
         <div className="rightblock">
 
-<div className="blockwhite">
+            <div className="blockwhite">
                 
                 <div classname="block top">
                     <Row>

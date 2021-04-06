@@ -5,10 +5,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import EventIcon from '@material-ui/icons/Event';
 import SettingsIcon from '@material-ui/icons/Settings';
-import EmailIcon from '@material-ui/icons/Email';
-import NotificationsIcon from '@material-ui/icons/Notifications';
-import CommentIcon from '@material-ui/icons/Comment';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+
 
 export const SidebarData = [
     {
@@ -40,25 +37,5 @@ export const SidebarData = [
         title : "Setting" ,
         icon : <SettingsIcon /> ,
         link : "/setting"
-    },
-    {
-        title : "Message" ,
-        icon : <EmailIcon /> ,
-        link : "/message"
-    },
-    {
-        title : "Notification" ,
-        icon : <NotificationsIcon /> ,
-        link : "/notification"
-    },
-    {
-        title : "Comment" ,
-        icon : <CommentIcon /> ,
-        link : "/comment"
-    },
-    {
-        title : "Log out" ,
-        icon : <ExitToAppIcon /> ,
-        link : "/"
     },
 ];
