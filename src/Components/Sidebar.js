@@ -48,7 +48,9 @@ function Sidebar() {
                 })}
             </ul>
 
-            <ul className="SidebarList">
+            <hr class="solid"></hr>
+            
+             <ul className="SidebarList">
                 {SidebarLogout.map((val,key) => {
                     return (
                         <li 
@@ -63,7 +65,8 @@ function Sidebar() {
                         </li>
                     );
                 })}
-            </ul>
+            </ul> 
+            
         </div>
         
     );

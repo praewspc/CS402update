@@ -1,39 +1,58 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 
-import {Row , Col} from 'react-bootstrap';
-import {Form , Button} from 'react-bootstrap' ;
-
-function BlockCreate(){
+function BlockCreate() {
     return (
         <div className="rightblock">
 
             <div className="blockwhite">
-            <p className="Topname">Create Group</p>
+                <p className="Topname">Create Group</p>
 
-            <Form className="blockcreate">
-                <Form.Group as={Row} controlId="formHorizontalEmail">
-                    <Form.Label column sm={2}>
-                        Email
-                    </Form.Label>
-                    <Col sm={10}>
-                        <Form.Control type="email" placeholder="Email" />
-                    </Col>
-                </Form.Group>
+                <hr class="solid"></hr>
+                <Form className="formcreate">
+                    <Form.Group as={Row} controlId="id-product">
+                        <Form.Label column sm={3}>
+                            Group Name
+                            </Form.Label>
+                        <Col sm={9}>
+                            <Form.Control type="text" placeholder="Group Name" />
+                            <p>The group name must contain a maximum of 50 characters</p>
+                        </Col>
+                    </Form.Group>
 
-                <Form.Group as={Row} controlId="formHorizontalPassword">
-                    <Form.Label column sm={2}>
-                        Password
-                    </Form.Label>
-                    <Col sm={10}>
-                        <Form.Control type="password" placeholder="Password" />
-                    </Col>
-                </Form.Group>
-                
-                <button type="button" class="btn btn-outline-danger">Cancel</button>
+                    <Form.Group as={Row} controlId="color-product">
+                        <Form.Label column sm={3}>
+                            Member
+                            </Form.Label>
+                        <Col sm={9}>
+                            <Form.Control type="text" placeholder="Search Member" />
+                        </Col>
+                    </Form.Group>
 
-                <button type="button" class="btn btn-outline-secondary">Create</button>
-            </Form>
+
+                    <Form.Group as={Row} controlId="amount-product">
+                        <Form.Label column sm={3}>
+                            Advisor
+                            </Form.Label>
+                        <Col sm={9}>
+                            <Form.Control type="text" placeholder="Search Advisor" />
+                        </Col>
+                    </Form.Group>
+
                     
+
+                    
+                </Form>
+
+                <div classname="sus" >
+                    <Button variant="primary">Primary</Button>{' '}
+
+                </div>
+                
+                
+                
+                
             </div>
         </div>
     )

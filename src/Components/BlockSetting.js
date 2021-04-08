@@ -4,7 +4,7 @@ function BlockSetting(){
     return (
         <div className="rightblock">
             <div className="blockwhite">
-
+                <p className="Topname">Setting</p>
             </div>
         </div>
     )

@@ -1,18 +1,18 @@
 import React from 'react';
 
-import {Row , Col} from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 import { FaSearch } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa";
 
-function BlockHome(){
+function BlockHome() {
     return (
-        <div className="rightblock">
 
+        <div className="rightblock">
             <div className="blockwhite">
-                
-                <div classname="block top">
-                    <Row>
+
+                {/* <div classname="block top">
+                    <Row classname="blueblue">
                         <Col>
                             <div className="block1">
                                 <p className="hello">Hello, Phurit</p>
@@ -22,59 +22,52 @@ function BlockHome(){
                                 <p className="welcome">Welcome back</p>
                             </div>
 
-                            
+
                         </Col>
                         <Col>
                             <div className="block3">
-                                        <FaSearch />
-                                        <p classname="Phurit">Phurit Apichonlati</p>
+                                <FaSearch />
+                                <p classname="Phurit">Phurit Apichonlati</p>
                             </div>
                         </Col>
                     </Row>
                 </div>
 
-                
+
 
                 <div>
-                    <span class="a">
+                    <div class="a">
                         <div className="paragraph1">
-                        <p className="cs">CS401 / CS402</p>
-                        <p className="cs1">วิชาบังคับก่อนศึกษา: </p>
+                            <p className="cs">CS401 / CS402</p>
+                            <p className="cs1">วิชาบังคับก่อนศึกษา: </p>
                         </div>
 
-                    <div className="paragraph2">
-                        <p className="cs2">คำอธิบายรายวิชา: </p>
+                        <div className="paragraph2">
+                            <p className="cs2">คำอธิบายรายวิชา: </p>
+                        </div>
+
+                        <div className="paragraph3">
+                            <p className="cs3">ผู้ประสานงาน: </p>
+                        </div>
                     </div>
 
-                    <div className="paragraph3">
-                        <p className="cs3">ผู้ประสานงาน: </p>
+                    <div class="b">
+
+
                     </div>
-                    </span> 
-
-                    <span class="b">
-                        
-                    
-                    </span>
-                </div>
-                    
-                <div classname="pdf1">
-                    <FaFilePdf size={26}/>
-                    <p>CS401 1-63 Course Syllabusfile</p>
-                    
-                </div>
-                <div classname="pdf1">
-                    <FaFilePdf size={26} />
-                    <p>CS402 1-63 Course Syllabusfile</p>
-                    
-                </div>
-
-                
+                </div> */}
             </div>
-            
-            
-            
+
+
+
+
+
         </div>
-        
+
+
+
+
+
     )
 }
 

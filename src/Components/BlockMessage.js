@@ -4,7 +4,7 @@ function BlockMessage(){
     return (
         <div className="rightblock">
             <div className="blockwhite">
-
+                <p className="Topname">Message</p>
             </div>
         </div>
     )
