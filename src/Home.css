@@ -12,12 +12,40 @@ body{
 }
 
 
-.rightblock{
+.rightblockhome{
     margin: 0px;
-    padding-left: 276px;
-    /* width: 1260px; */
+    margin-left: 276px;
+    width: 1275px;
     height: 721px;
+    position: absolute;
+    /* background-color: #2F4050; */
+    background-color: cornflowerblue;
+    /* width: 500em;
+    height: 58em; */
+    /* background-color: burlywood; */
+   
+}
 
+.rightblockcreate{
+    margin: 0px;
+    margin-left: 276px;
+    width: 1260px;
+    height: 721px;
+    position: absolute;
+    /* background-color: #2F4050; */
+    /* background-color: cornflowerblue; */
+    /* width: 500em;
+    height: 58em; */
+    /* background-color: burlywood; */
+   
+}
+
+.rightblockproject{
+    margin: 0px;
+    margin-left: 276px;
+    width: 1260px;
+    height: 721px;
+    position: absolute;
     /* background-color: #2F4050; */
     /* background-color: cornflowerblue; */
     /* width: 500em;
@@ -36,23 +64,12 @@ body{
     height: 100%;
 }
 
-.BlockContain {
-    /* height: 100%;
-    width: 1588vw; */
-    background-color: #FFF;
-    
-    border-radius: 25px;
-    top: 14px;
-    right: 14px;
-    bottom: 14px;
-  
-}
 
 .blockwhite{
-    /* height: 530px; */
-    /* display: block; */
-    /* width: 1715px; */
-    /* background-color: white; */
+    height: 530px; 
+    display: block;
+    width: 1715px;
+    background-color: white;
     /* background-color: aqua; */
     margin-left: 318px;
     margin-top: 14px;

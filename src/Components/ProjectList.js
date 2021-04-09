@@ -2,11 +2,10 @@ import React from 'react';
 
 function ProjectList () {
     return (
-        <div className="rightblock">
-            <div className="blockwhite">
-                <p className="Topname">Project</p>
-                <hr class="solid"></hr>
-            </div>
+        <div className="rightblockproject">
+            <h1 className="Topname">Project</h1>
+            {/* <hr className="solid"></hr> */}
+            
         </div>
     )
 }

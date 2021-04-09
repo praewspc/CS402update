@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Row, Col } from 'react-bootstrap';
 
 import { FaSearch } from "react-icons/fa";
@@ -7,9 +6,8 @@ import { FaFilePdf } from "react-icons/fa";
 
 function BlockHome() {
     return (
-
-        <div className="rightblock">
-            <div className="blockwhite">
+        <div className="rightblockhome">
+            <div className="blockwhitehome">
 
                 {/* <div classname="block top">
                     <Row classname="blueblue">
