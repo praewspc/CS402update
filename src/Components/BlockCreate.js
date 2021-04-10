@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+import { Form ,FormGroup } from 'react-bootstrap';
 import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -9,6 +10,7 @@ import RemoveIcon from '@material-ui/icons/Remove';
 import AddIcon from '@material-ui/icons/Add';
 import Icon from '@material-ui/core/Icon';
 import { makeStyles } from '@material-ui/core/styles';
+import { Input } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -18,7 +20,12 @@ const useStyles = makeStyles((theme) => ({
     },
     button: {
         margin: theme.spacing(1),
-        marginLeft: "48px",
+        marginLeft: "70px",
+        marginTop: "50px"
+    },
+    button2: {
+        margin: theme.spacing(1),
+        
         marginTop: "50px"
     }
 
@@ -176,32 +183,35 @@ function BlockCreate() {
                                 <AddIcon />
                             </IconButton>
                         </div>
-                    ))}
-
-
+                    ))
+                }
 
                 </form>
 
-                <Button id="btn-create"
+                
+                
+                   
+            </Container>
+            <Button id="btn-create"
                     className={classes.button}
-                    variant="contained"
+                    variant="outlined"
                     color="primary"
                     type="submit"
-                    endIcon={<Icon>send</Icon>}
+                    endIcon={<Icon>add</Icon>}
                     onClick={handleSubmit}
-                > Send
+                > Create
                 </Button>
-            </Container>
-
-            
-
-
-
-
-
-
-
-
+                   
+                <Button id="btn-cancel"
+                    className={classes.button2}
+                    variant="outlined"
+                    color="primary"
+                    type="submit"
+                    endIcon={<Icon>close</Icon>}
+                    onClick={handleSubmit}
+                > 
+                <Link to="/project">Cancel</Link>
+                </Button>
         </div>
     );
 }

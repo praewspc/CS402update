@@ -3,6 +3,7 @@ import './App.css';
 import './Home.css';
 import './Login.css';
 import './CreateGroup.css';
+import './Project.css';
 import Home from './Home';
 import Login from './Login';
 import CreateGroup from './CreateGroup';

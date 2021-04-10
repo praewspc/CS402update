@@ -1,0 +1,29 @@
+.projectlist{
+    margin-left: 48px;
+    margin-top: 150px;
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2F4050;
+}
+
+.d-flex{
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.groupnamelist{
+    font-size: 24px;
+    font-family: SF Pro Display;
+    text-align: left;
+}
+
+.btn-warning{
+    margin-left: 30px;
+    margin-top: -7px;
+}
+
+.btn-danger{
+    margin-left: 4px;
+    margin-top: -7px;
+}
