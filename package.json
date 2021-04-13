@@ -17,6 +17,7 @@
     "bootstrap": "^3.4.1",
     "bootstrap-icons": "^1.4.1",
     "font-awesome": "^4.7.0",
+    "formik": "^2.2.6",
     "mdbreact": "^5.0.1",
     "mobx": "^6.1.8",
     "mobx-react": "^7.1.0",
@@ -28,7 +29,8 @@
     "react-scripts": "4.0.3",
     "reactstrap": "^8.9.0",
     "recal": "^1.0.5",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",

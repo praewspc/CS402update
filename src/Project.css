@@ -1,3 +1,16 @@
+.rightblockproject{
+    margin: 0px;
+    margin-left: 276px;
+    width: 1260px;
+    height: 721px;
+    position: absolute;
+    /* background-color: #2F4050; */
+    /* background-color: cornflowerblue; */
+    /* width: 500em;
+    height: 58em; */
+    /* background-color: burlywood; */
+   
+}
 .projectlist{
     margin-left: 48px;
     margin-top: 150px;
@@ -18,12 +31,15 @@
     text-align: left;
 }
 
+.btn-list{
+     float: right;
+}
 .btn-warning{
     margin-left: 30px;
-    margin-top: -7px;
+    
 }
 
 .btn-danger{
     margin-left: 4px;
-    margin-top: -7px;
+   
 }

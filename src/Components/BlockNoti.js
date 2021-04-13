@@ -2,9 +2,9 @@ import React from 'react';
 
 function BlockNoti(){
     return (
-        <div className="rightblock">
+        <div className="rightblocknoti">
             <div className="blockwhite">
-                <p className="Topname">Notification</p>
+            <h1 className="Topname">Notification</h1> 
             </div>
         </div>
     )

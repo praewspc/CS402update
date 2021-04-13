@@ -14,6 +14,7 @@ import Setting from './Setting';
 import Message from './Message';
 import Notification from './Notification';
 import Comment from './Comment';
+import {GlobalProvider} from './Context/GlobalState';
 
 import {observer} from 'mobx-react' ;
 import { BrowserRouter, Router, Route , Switch} from "react-router-dom";
@@ -22,6 +23,8 @@ import { BrowserRouter, Router, Route , Switch} from "react-router-dom";
 class App extends React.Component{
   renderRouter(){
     return (
+
+    
       <Switch>
         <Route exact path="/" component={Login} />
         <Route exact path="/home" component={Home} />
@@ -35,6 +38,8 @@ class App extends React.Component{
         <Route exact path="/comment" component={Comment} />
         
       </Switch>
+      
+     
     )
   }
 
@@ -44,7 +49,7 @@ class App extends React.Component{
        
       <BrowserRouter>{this.renderRouter()}</BrowserRouter>
    
-);
+    );
   }
 
 

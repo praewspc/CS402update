@@ -27,33 +27,8 @@ body{
    
 }
 
-.rightblockcreate{
-    margin: 0px;
-    margin-left: 276px;
-    width: 1260px;
-    height: 721px;
-    position: absolute;
-    /* background-color: #2F4050; */
-    /* background-color: cornflowerblue; */
-    /* width: 500em;
-    height: 58em; */
-    /* background-color: burlywood; */
-   
-}
 
-.rightblockproject{
-    margin: 0px;
-    margin-left: 276px;
-    width: 1260px;
-    height: 721px;
-    position: absolute;
-    /* background-color: #2F4050; */
-    /* background-color: cornflowerblue; */
-    /* width: 500em;
-    height: 58em; */
-    /* background-color: burlywood; */
-   
-}
+
 .homesidebar.col{
     display: flex;
     flex-wrap: wrap;

@@ -1,27 +1,20 @@
-import React from 'react';
 import './Login.css';
-import "bootstrap/dist/css/bootstrap.css";
-import {Button, Alert , Row , Col} from 'react-bootstrap';
-import LeftSide from "./Login/LeftSide";
-import RightSide from "./Login/RightSide";
+import rocketImg from './assets/rocket.png';
+import { Signup } from './Components/Signup';
 
-class Login extends React.Component {
-
-  render(){
-    return (
-      <div className="Login">
-
-        <Row className="landing">
-          <Col className="left" ><LeftSide /></Col>
-          <Col className="right"><RightSide /></Col>
-        </Row>
+function Login() {
+  return (
+    <div className="container mt-3">
+      <div className="row">
+        <div className="col-md-5">
+          <Signup />
+        </div>
+        <div className="col-md-7 my-auto">
+          <img className="img-fluid" src={rocketImg} alt=""/>
+        </div>
       </div>
-
-
-    
-    );
-  }
-  
+    </div>
+  );
 }
 
 export default Login;

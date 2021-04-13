@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState , useContext} from 'react';
+import {Link , useHistory} from 'react-router-dom';
+import {GlobalContext} from '../Context/GlobalState' ;
 import { Row, Col } from 'react-bootstrap';
 import { Form ,FormGroup } from 'react-bootstrap';
 import Container from '@material-ui/core/Container';
@@ -34,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 function BlockCreate() {
 
     const classes = useStyles();
+    
     const [inputNameGroup, setInputGroupName] = useState([
         { groupname: ''},
     ]);
@@ -93,6 +95,8 @@ function BlockCreate() {
         setInputFields2([...inputFields2, { firstName: '', lastName: '' }])
     }
 
+    
+    
     return (
         <div className="rightblockcreate">
 
@@ -192,7 +196,7 @@ function BlockCreate() {
                 
                    
             </Container>
-            <Button id="btn-create"
+                <Button id="btn-create"
                     className={classes.button}
                     variant="outlined"
                     color="primary"

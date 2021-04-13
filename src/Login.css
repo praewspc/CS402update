@@ -1,125 +1,43 @@
-/* html , body , #root , .Login , .landing {
-  width: 1920px;
-  height: 1080px;
-  margin: 0;
-  padding: 0;
-    justify-content: center;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  
-  .left.col , .right.col{
-    width: 50%;
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
   }
 
-  
-  
-  .col {
-    flex-basis: 0;
-    flex-grow: 1;
-    padding-right: 15px;
-    padding-left: 15px;
-    
-  }
+label {
+  font-size: .7rem;
+}
 
-  .center {
-    display: block;
-    margin-left: 106px;
-    margin-right: 106px;
-    width: 748px;
-    height: 40%;
-    position: absolute;
-    top: 250px;
-    
-    
-  }
+input.form-control, input.form-control:focus {
+  background: #F0F0FF;
+}
 
-  
-  .topic1 {
-      width: 408px;
-      height: 71px;
-      text-align: center;
-      font-family: SF Pro Display;
-      font-weight: bold;
-      font-size: 50px;
-      color: #134F71;
-      
-      
-  }
-  
-  .right{
-   display: inline-block;
-   left: 900px ;
-   position: absolute;
-  top: 80px;
-    
-  }
-  
-  
-  
-  .labelname {
-    font-size: 20px;
-    color: #134F71;
-    font-family: SF Pro Display;
-    font-weight: medium;
-    padding-top: 30px;
-  }
-  
-  input#formBasicUsername {
-    font-size: 16px;
-    width: 428px;
-    height: 55px;
-    
-  }
-  
-  .labelpassword {
-    font-size: 20px;
-    color: #134F71;
-    font-family: SF Pro Display;
-    font-weight: medium;
-    
-  }
-  
-  input#formBasicPassword {
-    font-size: 16px;
-    width: 428px;
-    height: 55px;
-    
-  }
-  
-  input[type="radio"], input[type="checkbox"] {
-    box-sizing: border-box;
-    padding: 0;
-    width: 28px;
-    height: 28px;
-  }
-  
-  .labelcheck{
-    
-    font-size: 20px;
-    color: #134F71;
-    margin-top: 47px;
-  }
-  label.form-check-label {
-    padding-left: 20px;
-  }
-  
-  button.btn.btn-primary {
-    font-size: 24px;
-    
-  }
-  
-  .btnLogin{
-    
-    margin-top: 30px;
-    width: 328px;
-    height: 72px;
-    margin-left: 50px;
-    border-radius: 23px;
-  } */
+.error {
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+  margin-top: 4px;
+}
+
+.btn-primary{
+  margin-top: 30px;
+}
+
+.btn-danger{
+  margin-top: 30px;
+}
+
+.img-fluid{
+  width: 635px;
+  height: 435.438px;
+
+}
+
+.aa{
+  /* my-4 font-weight-bold .display-4 */
+  margin-top: 50px;
+}
+
+.firstfield{
+  margin-top: 30px;
+}

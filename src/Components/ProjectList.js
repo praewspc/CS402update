@@ -1,21 +1,29 @@
-import React from 'react';
+import React , {useContext} from 'react';
+import {GlobalContext} from '../Context/GlobalState' ;
 import {Link} from 'react-router-dom';
 import {ListGroup , ListGroupItem , Button  } from 'reactstrap'
 function ProjectList () {
-    return (
-       
 
-            <ListGroup>
+    const {groups , removeGroup} = useContext(GlobalContext);
+
+    return (
+        <ListGroup className="mt-4">
+            {groups.map(group => (
                 <ListGroupItem className="d-flex">
+                    <strong className="groupnamelist">{group.groupname}</strong>
+                    <div className="btn-list ml-auto">
                     
-                    <div className="ml">
-                        <strong className="groupnamelist">Pooh</strong>
-                        <Link className="btn btn-warning mr-1" to="/create">Edit</Link>
-                        <Button className="btn-danger"color="danger">Delete</Button>
-                    </div>
-                </ListGroupItem>
-                
-            </ListGroup>
+                    <Link className="btn btn-warning mr-1" 
+                        to={`/edit/${group.id}`}>Edit</Link>
+                    <Button
+                    className="btn-danger"
+                    color="danger"
+                    onClick={() => removeGroup(group.id)}>Delete</Button>
+                </div>
+            </ListGroupItem>
+            ))}
+            
+        </ListGroup>
             
        
     )
