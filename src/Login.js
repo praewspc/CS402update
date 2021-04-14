@@ -1,6 +1,6 @@
 import './Login.css';
 import rocketImg from './assets/rocket.png';
-import { Signup } from './Components/Signup';
+import Signup from './Components/Signup';
 
 function Login() {
   return (
