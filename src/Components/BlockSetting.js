@@ -2,9 +2,9 @@ import React from 'react';
 
 function BlockSetting(){
     return (
-        <div className="rightblock">
-            <div className="blockwhite">
-                <p className="Topname">Setting</p>
+        <div className="rightblocksetting">
+            <div className="blockwhitesetting">
+            <h1 className="Topname">Setting</h1>
             </div>
         </div>
     )

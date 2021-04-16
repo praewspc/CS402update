@@ -21,7 +21,8 @@ function Blockproject(){
     const classes = useStyles();
     return (
         <div className="rightblockproject">
-        
+            
+            <div className="blockwhiteproject">
             <h1 className="Topname">Project</h1> 
 
             <Container>
@@ -43,7 +44,7 @@ function Blockproject(){
             
         </div>
 
-        
+        </div>
     );
 }
 

@@ -2,9 +2,9 @@ import React from 'react';
 
 function BlockMessage(){
     return (
-        <div className="rightblock">
-            <div className="blockwhite">
-                <p className="Topname">Message</p>
+        <div className="rightblockmessage">
+            <div className="blockwhitemessage">
+            <h1 className="Topname">Message</h1>
             </div>
         </div>
     )

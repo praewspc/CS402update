@@ -2,9 +2,9 @@ import React from 'react';
 
 function BlockTask(){
     return (
-        <div className="rightblock">
-            <div className="blockwhite">
-                <p className="Topname">My Task</p>
+        <div className="rightblocktask">
+            <div className="blockwhitetask">
+                <h1 className="Topname">My Task</h1>
             </div>
         </div>
     )

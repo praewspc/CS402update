@@ -1,0 +1,35 @@
+.rightblockcomment{
+    margin: 0px;
+    margin-left: 276px;
+    width: 1275px;
+    height: 721px;
+    position: absolute;
+    background-color: #2F4050;
+    /* background-color: cornflowerblue; */
+    /* width: 500em;
+    height: 58em; */
+    /* background-color: burlywood; */
+   
+}
+
+.blockwhitecomment{
+    height: 693px; 
+    display: block;
+    width: 1219px;
+    background-color: white;
+    /* background-color: aqua; */
+    margin-left: 42px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right: 14px;
+    position: absolute;
+    border-radius: 25px;
+}
+.Topname{
+    margin-top: 48px;
+    margin-left: 48px;
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2F4050;
+}

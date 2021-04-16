@@ -100,7 +100,7 @@ function BlockCreate() {
     return (
         <div className="rightblockcreate">
 
-            {/* <div className="blockwhitecreate"> */}
+            <div className="blockwhitecreate">
             <h1 className="Topname">Create Group</h1>
 
             <Container>
@@ -217,6 +217,7 @@ function BlockCreate() {
                 <Link to="/project">Cancel</Link>
                 </Button>
         </div>
+    </div>
     );
 }
 

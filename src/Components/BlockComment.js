@@ -4,11 +4,11 @@ import { Form, Button } from 'react-bootstrap';
 
 function BlockComment() {
     return (
-        <div className="rightblock">
-            <div className="blockwhite">
+        <div className="rightblockcomment">
+            <div className="blockwhitecomment">
                 <p className="Topname">Comment</p>
 
-                <Form.Group as={Row} controlId="detail-product">
+                {/* <Form.Group as={Row} controlId="detail-product">
                     <Form.Label column sm={3}>
                         ความคิดเห็น:
                             </Form.Label>
@@ -18,7 +18,7 @@ function BlockComment() {
                 </Form.Group>
                 <Form>
 
-                </Form>
+                </Form> */}
             </div>
         </div>
     )

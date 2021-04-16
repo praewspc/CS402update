@@ -1,8 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import { FaSearch } from "react-icons/fa";
-import { FaFilePdf } from "react-icons/fa";
 
 function BlockHome() {
     return (
@@ -45,10 +43,8 @@ function BlockHome() {
 
                         <div className="paragraph2">
                             <p className="cs2">คำอธิบายรายวิชา: 
-                                <span className="cs2-1"> โครงงานการศึกษาจะกําหนดหรือได้รับอนุมัติจากภาควิชา ศึกษาหัวข้อทางวิชาการ โดยมีวัตถุประสงค์ให้นักศึกษาค้นคว้าทางวิชาการ เขียนรายงาน และเสนอต่อคณะ
-กรรมการ
-Senior Projects Will Be Assigned Or Approved By The Department. This 
-Course Prepares Students For Developing A Proposal For Doing Research, Writing Research Papers, And Presenting The Proposal To The Committee.</span>
+                                <span className="cs2-1"> โครงงานการศึกษาจะกําหนดหรือได้รับอนุมัติจากภาควิชา ศึกษาหัวข้อทางวิชาการ โดยมีวัตถุประสงค์ให้นักศึกษาค้นคว้าทางวิชาการ เขียนรายงาน และเสนอต่อคณะกรรมการ
+                                                            Senior Projects Will Be Assigned Or Approved By The Department. This Course Prepares Students For Developing A Proposal For Doing Research, Writing Research Papers, And Presenting The Proposal To The Committee.</span>
                             </p>
                         </div>
 
@@ -60,24 +56,25 @@ Course Prepares Students For Developing A Proposal For Doing Research, Writing R
                             </p>
                             
                         </div>
+
+                         
                     </div>
-
+                    
                     {/* <div class="b">
-
+                            ge;rh
 
                     </div> */}
+                   
                 </div>
+
+                <div classname="pdf1">
+                    
+                </div>
+
+
             </div>
 
-
-
-
-
         </div>
-
-
-
-
 
     )
 }

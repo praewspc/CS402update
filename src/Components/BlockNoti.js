@@ -7,14 +7,15 @@ function BlockNoti (){
 
     const {groups } = useContext(GlobalContext);
     return (
-        <div className="rightnoti">
+        <div className="rightblocknoti">
+            <div className="blockwhitenoti">
             <h1 className="Topname">Notification</h1> 
 
             {/* <div >
             <span class="c">Phurit Apichonlati</span>
             </div> */}
             
-            <ListGroup className="mt-4">
+            {/* <ListGroup className="mt-4">
             {groups.map(group => (
                 <ListGroupItem className="c-flex">
                     <strong className="groupnamelist">{group.groupname}</strong>
@@ -25,8 +26,8 @@ function BlockNoti (){
             </ListGroupItem>
             ))}
             
-        </ListGroup>
-            
+        </ListGroup> */}
+            </div>
         </div>
     );
 }
