@@ -19,8 +19,8 @@ body{
     width: 1275px;
     height: 721px;
     position: absolute;
-    /* background-color: #2F4050; */
-    background-color: cornflowerblue;
+    background-color: #2F4050;
+    /* background-color: cornflowerblue; */
     /* width: 500em;
     height: 58em; */
     /* background-color: burlywood; */
@@ -41,13 +41,13 @@ body{
 }
 
 
-.blockwhite{
-    height: 530px; 
+.blockwhitehome{
+    height: 693px; 
     display: block;
-    width: 1715px;
+    width: 1219px;
     background-color: white;
     /* background-color: aqua; */
-    margin-left: 318px;
+    margin-left: 42px;
     margin-top: 14px;
     margin-bottom: 14px;
     margin-right: 14px;
@@ -58,21 +58,23 @@ body{
 }
 
 .block1{
-    margin-top: 38px;
+    margin-top: 20px;
     margin-left: 48px;
 }
 
 .hello{
-    font-size: 44px;
+    font-size: 40px;
     width: 249px;
     height: 53px;
-    color: #134F71;
+    color: #293846;
+    /* margin-left: 48px; */
+    /* margin-top: 28px; */
     font-weight: bold;
     font-family: SF Pro Display;
 }
 
 .welcome{
-    font-size: 30px;
+    font-size: 24px;
     width: 192px;
     height: 36px;
     color: #ADADAD;
@@ -80,7 +82,7 @@ body{
 }
 
 .block2{
-    margin-top: -20px;
+    margin-top: -15px;
     margin-left: 48px;
 }
 
@@ -98,12 +100,12 @@ body{
 div.a {
     display: inline-block;
     /* width: 895px; */
-    width: 500px;
-    height: 420px;
+    width: 800px;
+    height: 284px;
     background-color:  #F3F9FC; 
     border-radius: 25px;
-    margin-left: 48px;
-    margin-top: 47px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 div.b {
@@ -119,23 +121,29 @@ div.b {
 }
 
 .cs{
-    padding-top: 25px;
-    padding-left: 38px;
+    padding-top: 15px;
+    padding-left: 26px;
     color: #134F71;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 36px;
     font-family: SF Pro Display;
 }
 
 .cs1, .cs2, .cs3{
     padding-top: 4px;
-    padding-left: 38px;
+    padding-left: 28px;
     color: #000000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     font-family: SF Pro Display;
 }
 
+.cs1-1 , .cs2-1 , .cs3-1 , .cs3-2{
+    margin-left: 12px;
+    /* margin-top: 2px; */
+    color: #000000;
+    font-weight: normal;
+}
 .pdf1{
     top: 2px;
     position: relative;
