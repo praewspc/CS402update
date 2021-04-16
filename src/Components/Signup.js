@@ -14,15 +14,13 @@ const schema = Yup.object().shape({
 });
 
 class Signup extends React.Component {
-
-  
-    validate = Yup.object({
-    username: Yup.string()
-      .max(10, 'Must be 10 characters')
-      .required('Required'),
-    password: Yup.string()
-      .min(6, 'Password must be at least 6 charaters')
-      .required('Password is required'),
+      validate = Yup.object({
+        username: Yup.string()
+        .max(10, 'Must be 10 characters')
+        .required('Required'),
+        password: Yup.string()
+        .min(6, 'Password must be at least 6 charaters')
+        .required('Password is required'),
   })
 
   
@@ -56,8 +54,29 @@ class Signup extends React.Component {
             <Form>
               <TextField label="Username" name="username" type="text" />
               <TextField label="Password" name="password" type="password" />
+{/*               
+              <Button 
+                className="btn-login" 
+                variant="outlined"
+                color="primary"
+                type="submit"
+                onClick={handleSubmit}
+                >Submit
+                <Link to="/home">Submit</Link>
+              </Button>
+              
+              <Button
+                className="btn-reset"
+                variant="outlined"
+                color="secondary"
+                type="submit"
+              >Reset
+                
+              </Button> */}
+
               <button className="btn btn-primary mt-3" type="submit">Submit</button>
               <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
+              
             </Form>
           </div>
         )}

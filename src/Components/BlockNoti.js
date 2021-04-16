@@ -1,13 +1,34 @@
-import React from 'react';
+import React , {useContext} from 'react';
+import {GlobalContext} from '../Context/GlobalState' ;
+import { Container } from 'react-bootstrap';
+import {ListGroup , ListGroupItem  } from 'reactstrap'
 
-function BlockNoti(){
+function BlockNoti (){
+
+    const {groups } = useContext(GlobalContext);
     return (
-        <div className="rightblocknoti">
-            <div className="blockwhite">
+        <div className="rightnoti">
             <h1 className="Topname">Notification</h1> 
-            </div>
+
+            {/* <div >
+            <span class="c">Phurit Apichonlati</span>
+            </div> */}
+            
+            <ListGroup className="mt-4">
+            {groups.map(group => (
+                <ListGroupItem className="c-flex">
+                    <strong className="groupnamelist">{group.groupname}</strong>
+                    <div className="btn-list ml-auto">
+                    
+                    
+                </div>
+            </ListGroupItem>
+            ))}
+            
+        </ListGroup>
+            
         </div>
-    )
+    );
 }
 
 export default BlockNoti;
