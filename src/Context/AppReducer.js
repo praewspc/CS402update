@@ -1,14 +1,27 @@
 export default (state, action) => {
     switch (action.type) {
-        case 'REMOVE_GROUP':
+        case 'REMOVE_USER':
             return {
-                groups: state.groups.filter(group => {
-                    return group.id !== action.payload
+                users: state.users.filter(user => {
+                    return user.id !== action.payload
                 })
             }
-        case 'ADD_GROUP':
+        case 'ADD_USER':
             return {
-                groups: [action.payload, state.groups]
+                users: [action.payload, ...state.users]
+            }
+        case 'EDIT_USER':
+            const updateUser = action.payload;
+
+            const updateUsers = state.users.map(user => {
+                if(user.id === updateUser.id){
+                    return updateUser;
+                }
+                return user ;
+            })
+
+            return {
+                users: updateUsers
             }
         default:
             return state

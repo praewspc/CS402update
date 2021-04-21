@@ -2,31 +2,33 @@ import React , {useContext} from 'react';
 import {GlobalContext} from '../Context/GlobalState' ;
 import {Link} from 'react-router-dom';
 import {ListGroup , ListGroupItem , Button  } from 'reactstrap'
-function ProjectList () {
 
-    const {groups , removeGroup} = useContext(GlobalContext);
+export const ProjectList = () => {
 
+    const {users , removeUser} = useContext(GlobalContext);
+    console.log(users) ;
     return (
         <ListGroup className="mt-4">
-            {groups.map(group => (
-                <ListGroupItem className="d-flex">
-                    <strong className="groupnamelist">{group.groupname}</strong>
-                    <div className="btn-list ml-auto">
-                    
-                    <Link className="btn btn-warning mr-1" 
-                        to={`/edit/${group.id}`}>Edit</Link>
-                    <Button
-                    className="btn-danger"
-                    color="danger"
-                    onClick={() => removeGroup(group.id)}>Delete</Button>
-                </div>
-            </ListGroupItem>
-            ))}
-            
+            {users.length > 0 ? (
+                 <>
+                {users.map(user => (
+                    <ListGroupItem className="d-flex" key={user.id}>
+                        <strong className="groupnamelist">{user.name}</strong>
+                        <div className="btn-list ml-auto">
+                            <Link 
+                                className="btn btn-warning mr-1" 
+                                to={`/edit/${user.id}`}>Edit</Link>
+                        <Button
+                        //className="btn-danger"
+                        onClick={() => removeUser(user.id)}
+                        color="danger">Delete</Button>
+                    </div>
+                </ListGroupItem>
+                ))}
+                </>
+            ) : (
+                <h4 className="text-center">No Group</h4>
+            )}
         </ListGroup>
-            
-       
     )
 }
-
-export default ProjectList ;

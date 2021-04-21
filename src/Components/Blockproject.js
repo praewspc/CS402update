@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button'
 import Icon from '@material-ui/core/Icon';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import ProjectList from './ProjectList';
+import {ProjectList} from './ProjectList';
 
 const useStyles = makeStyles((theme) => ({
    
@@ -16,9 +16,10 @@ const useStyles = makeStyles((theme) => ({
     }
 
 }))
-function Blockproject(){
 
+export const Blockproject = () => {
     const classes = useStyles();
+
     return (
         <div className="rightblockproject">
             
@@ -45,7 +46,5 @@ function Blockproject(){
         </div>
 
         </div>
-    );
+    )
 }
-
-export default Blockproject ;
