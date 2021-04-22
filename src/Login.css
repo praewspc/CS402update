@@ -19,13 +19,13 @@ input.form-control, input.form-control:focus {
   margin-top: 4px;
 }
 
-.btn-login{
-  padding-top: 50px;
+.btn-primary{
+  margin-top: 30px;
 }
 
-/* .btn-danger{
+.btn-danger{
   margin-top: 30px;
-} */
+}
 
 .img-fluid{
   width: 635px;

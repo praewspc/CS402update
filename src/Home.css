@@ -64,7 +64,7 @@ body{
 
 .hello{
     font-size: 40px;
-    width: 249px;
+    /* width: 249px; */
     height: 53px;
     color: #293846;
     /* margin-left: 48px; */

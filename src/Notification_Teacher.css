@@ -1,0 +1,16 @@
+.list-group-noti{
+    padding-left: 48px;
+    width: 1218px;
+    padding-right: 48px;
+    padding-top: 6px;
+}
+
+.topic_request{
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.btn-accept ,.btn-cancel{
+    margin-top: 10px;
+}
+    

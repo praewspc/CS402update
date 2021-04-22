@@ -13,7 +13,7 @@ export const SidebarData2 = [
     {
         title : "Notification" ,
         icon : <NotificationsIcon /> ,
-        link : "/notification"
+        link : "/notification",
     },
     {
         title : "Comment" ,

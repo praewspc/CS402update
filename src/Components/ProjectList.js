@@ -19,7 +19,7 @@ export const ProjectList = () => {
                                 className="btn btn-warning mr-1" 
                                 to={`/edit/${user.id}`}>Edit</Link>
                         <Button
-                        //className="btn-danger"
+                        className="btn-delete"
                         onClick={() => removeUser(user.id)}
                         color="danger">Delete</Button>
                     </div>
