@@ -1,32 +1,49 @@
 import React , {useContext} from 'react';
 import {GlobalContext} from '../Context/GlobalState' ;
 import { Container } from 'react-bootstrap';
-import {ListGroup , ListGroupItem  } from 'reactstrap'
+import {ListGroup , ListGroupItem , Button  } from 'reactstrap'
 
 function BlockNoti (){
 
-    const {groups } = useContext(GlobalContext);
     return (
         <div className="rightblocknoti">
             <div className="blockwhitenoti">
-            <h1 className="Topname">Notification</h1> 
+                <h1 className="Topname">Notification</h1> 
 
-            {/* <div >
-            <span class="c">Phurit Apichonlati</span>
-            </div> */}
+                <div className="list-group-noti">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between">
+                                <h5 class="mb-1">Nutchakorn Ngamsaowaros</h5>
+                                <p class="mb-1">Accept request</p>
+                                <small>Now</small>
+                            </div>
+                            <Button 
+                            className="btn-accept"
+                            color="primary">Go to group</Button>{' '}
+                            {/* <Button 
+                            className="btn-cancel"
+                            color="primary">Cancel</Button>{' '} */}
+                           
+                        </a>
+                        </div>
+
+                        <div className="list-group-noti">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between">
+                                <h5 class="mb-1">Supitcha Ratanatrimas</h5>
+                                <p class="mb-1">Accept request</p>
+                                <small>2 mintues ago</small>
+                            </div>
+                            <Button 
+                            className="btn-accept"
+                            color="primary">Go to group</Button>{' '}
+                            {/* <Button 
+                            className="btn-cancel"
+                            color="primary">Cancel</Button>{' '} */}
+                           
+                        </a>
+                        </div>
             
-            {/* <ListGroup className="mt-4">
-            {groups.map(group => (
-                <ListGroupItem className="c-flex">
-                    <strong className="groupnamelist">{group.groupname}</strong>
-                    <div className="btn-list ml-auto">
-                    
-                    
-                </div>
-            </ListGroupItem>
-            ))}
-            
-        </ListGroup> */}
             </div>
         </div>
     );

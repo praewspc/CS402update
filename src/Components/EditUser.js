@@ -26,7 +26,7 @@ export const EditUser = (props) => {
 
     const onSubmit = () => {
         editUser(selectedUser)
-        history.push('/project') ;
+        history.push('/group') ;
     }
 
     const onChange = (e) => {
@@ -43,7 +43,7 @@ export const EditUser = (props) => {
                 placeholder="Enter Name" ></Input>
             </FormGroup>
             <Button className="btn btn-primary" type="submit">Edit Name</Button>
-            <Link to="/project" className="btn btn-danger ml-2">Cancel</Link>
+            <Link to="/group" className="btn btn-danger ml-2">Cancel</Link>
         </Form>
     )
 }

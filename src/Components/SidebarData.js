@@ -19,9 +19,9 @@ export const SidebarData = [
         link : "/create"
     },
     {
-        title : "Project" ,
+        title : "Group" ,
         icon : <WorkIcon /> ,
-        link : "/project"
+        link : "/group"
     },
     {
         title : "My Task" ,

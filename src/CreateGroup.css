@@ -15,10 +15,10 @@
 .blockwhitecreate{
     height: 693px; 
     display: block;
-    width: 1219px;
+    width: 1247px;
     background-color: white;
     /* background-color: aqua; */
-    margin-left: 42px;
+    margin-left: 14px;
     margin-top: 14px;
     margin-bottom: 14px;
     margin-right: 14px;
@@ -77,77 +77,3 @@
     padding-top: 100px;
 }
 
-.blockcreate{
-    margin-top: 154px;
-}
-
-.text-page{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #95806E;
-    font-weight: bolder;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.text-form{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.input-group{
-    margin-bottom: 20px;
-}
-
-
-
-
-.text-page{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #95806E;
-    font-weight: bolder;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.text-form{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.input-group{
-    margin-bottom: 20px;
-}
-
-.button-submit{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFF;
-    background-color: #95806E;
-    border-color:#746354;
-    border-width: 0.5px;
-    margin-top: 10px;
-    margin-left: 60px;
-}
-
-.button-submit:hover,.button-submit:focus,.button-submit.focus{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#fff;/*สีตัวหนังสือในปุ่ม*/
-    background:#c5ab95;/*พื้นหลังปุ่ม*/
-    border-color:#746354;/*เส้นขอบปุ่ม*/
-    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
-    }
-
-.text-showpic{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-h2,h4,.input-group-text,.input-group,.custom-file-label,.text-fill {
-    font-family: Arial, Helvetica, sans-serif;
-/*     color: #95806E; */
-}

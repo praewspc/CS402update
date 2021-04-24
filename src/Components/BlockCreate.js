@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     },
     button: {
         margin: theme.spacing(1),
-        marginLeft: "70px",
+        marginLeft: "48px",
         marginTop: "50px"
     },
     button2: {
@@ -63,9 +63,9 @@ export const BlockCreate = () => {
         setName(e.target.value);
     }
 
-    const handleSubmit = () => {
-        // e.preventDefault();
-        history.push('/project') ;
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        history.push('/group') ;
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)
@@ -77,7 +77,7 @@ export const BlockCreate = () => {
             name
         }
         addUser(newUser);
-        history.push('/project') ;
+        history.push('/group') ;
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)

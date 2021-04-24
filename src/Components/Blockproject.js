@@ -24,7 +24,7 @@ export const Blockproject = () => {
         <div className="rightblockproject">
             
             <div className="blockwhiteproject">
-            <h1 className="Topname">Project</h1> 
+            <h1 className="Topname">Group</h1> 
 
             <Container>
                 <Button id="btn-addproject"
@@ -35,7 +35,7 @@ export const Blockproject = () => {
                     endIcon={<Icon>add</Icon>}
                    
                 > 
-                <Link to="/create">Add Project</Link>
+                <Link to="/create">Add Group</Link>
                 </Button>
             </Container>
 
