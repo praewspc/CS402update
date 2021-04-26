@@ -5,3 +5,195 @@
         width: 1551px;
         height: 721px;
 }
+
+.blocktop.row{
+        width: 850px;
+        height: 693px;
+        background-color: rgba(255, 99, 71, 0.2);
+        margin-right: 0px;
+        margin-left: 0px;
+        /* margin-left: 60px; */
+        /* margin-top: 14px; */
+        position: absolute;
+}
+
+.blocktop2.row{
+        width: 398px;
+        height: 693px;
+        background-color: rgba(19, 79, 113, 0.2) ;
+        margin-right: 0px;
+        margin-left: 850px;
+        position: absolute;
+        /* margin-left: 60px; */
+        /* margin-top: 14px; */
+}
+
+.month{
+        margin-top: 10px;
+        color: #134F71;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: SF Pro Display;
+        text-align: center;
+}
+
+.Day.row{
+        text-align: center;
+        margin-top: 13px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.Monday ,.Tuesday , .Wednesday , .Thursday , .Friday , .Saturday{
+        margin-left: 15px;
+}
+
+hr.hr-month{
+        /* color: #134F71; */
+        justify-items: center;
+        width: 280px;
+        margin-top: 4px;
+        border-top: 1px solid rgba(19, 79, 113, 1);
+        margin-bottom: 0px;
+}
+
+.one.row{
+        /* text-align: center; */
+        margin-top: 10px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.dec27 {
+        opacity: 0.5;
+        margin-left: 38px;
+}
+.dec28 , .dec29 , .dec30 , .dec31 {
+        margin-left: 28px;
+        opacity: 0.5;
+}
+
+.jan1{
+        margin-left: 24px;
+}
+.jan2{
+        margin-left: 28px;
+}
+
+.two.row{
+        /* text-align: center; */
+        margin-top: 8px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.jan3 {
+        margin-left: 42px;
+}
+
+.jan4 , .jan5{
+        margin-left: 37px;
+}
+
+.jan6{
+        margin-left: 36px;
+}
+
+.jan7{
+        margin-left: 38px;
+}
+
+.jan8 {
+        margin-left: 30px;
+}
+
+.jan9{
+        margin-left: 28px;
+}
+
+.three.row{
+        /* text-align: center; */
+        margin-top: 8px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.jan10 , .jan17 ,.jan24 , .jan31{
+        margin-left: 38px;
+}
+
+.jan{
+        margin-left: 28px;
+}
+
+.jan15 , .jan16 , .jan22 , .jan23  , .jan29 , .jan30{
+        margin-left: 20px;
+}
+.four.row{
+        /* text-align: center; */
+        margin-top: 8px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.five.row{
+        /* text-align: center; */
+        margin-top: 8px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.six.row{
+        /* text-align: center; */
+        margin-top: 8px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: fit-content;
+        color: #134F71;
+        font-weight: bold ;
+}
+
+.feb1{
+        margin-left: 32px;
+        opacity: 0.5;
+}
+
+.feb2 , .feb{
+        margin-left: 38px;
+        opacity: 0.5;
+}
+
+.feb4{
+        margin-left: 36px;
+        opacity: 0.5;
+}
+
+.feb5 ,.feb6{
+        margin-left: 29px;
+        opacity: 0.5;
+}

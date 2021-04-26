@@ -1,6 +1,6 @@
-import React, { useState , useContext} from 'react';
-import {Link , useHistory} from 'react-router-dom';
-import {GlobalContext} from '../Context/GlobalState' ;
+import React, { useState, useContext } from 'react';
+import { Link, useHistory } from 'react-router-dom';
+import { GlobalContext } from '../Context/GlobalState';
 import { Row, Col } from 'react-bootstrap';
 // import { Form ,FormGroup } from 'react-bootstrap';
 import Container from '@material-ui/core/Container';
@@ -12,14 +12,14 @@ import AddIcon from '@material-ui/icons/Add';
 import Icon from '@material-ui/core/Icon';
 import { makeStyles } from '@material-ui/core/styles';
 // import { Input } from '@material-ui/core';
-import {v4 as uuid} from 'uuid' ;
+import { v4 as uuid } from 'uuid';
 import {
     Form,
     FormGroup,
     Label,
     Input,
     // Button
-} from 'reactstrap' ;
+} from 'reactstrap';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     },
     button2: {
         margin: theme.spacing(1),
-        
+
         marginTop: "50px"
     }
 
@@ -42,13 +42,13 @@ const useStyles = makeStyles((theme) => ({
 export const BlockCreate = () => {
 
     const classes = useStyles();
-    
-    const [name , setName] = useState('');
-    const {addUser} = useContext(GlobalContext) ;
+
+    const [name, setName] = useState('');
+    const { addUser } = useContext(GlobalContext);
     const history = useHistory();
 
     const [inputNameGroup, setInputGroupName] = useState([
-        { groupname: ''},
+        { groupname: '' },
     ]);
     const [inputFields, setInputFields] = useState([
         { firstName: '', lastName: '' },
@@ -57,7 +57,7 @@ export const BlockCreate = () => {
         { firstName: '', lastName: '' },
     ]);
 
-    
+
 
     const onChange = (e) => {
         setName(e.target.value);
@@ -65,7 +65,7 @@ export const BlockCreate = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push('/group') ;
+        history.push('/group');
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)
@@ -77,7 +77,7 @@ export const BlockCreate = () => {
             name
         }
         addUser(newUser);
-        history.push('/group') ;
+        history.push('/group');
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)
@@ -90,7 +90,7 @@ export const BlockCreate = () => {
         setInputGroupName(values0);
     }
 
-    
+
     // Member
     const handleChangeInput = (index, event) => {
         const values = [...inputFields];
@@ -129,23 +129,23 @@ export const BlockCreate = () => {
         <div className="rightblockcreate">
 
             <div className="blockwhitecreate">
-            <h1 className="Topname">Create Group</h1>
+                <h1 className="Topname">Create Group</h1>
 
-            <Container>
-                <Form onSubmit={onSubmit}>
-                    <h4 className="GroupName">Group Name</h4>
-                    <div className="fieldmember" >
-                        <TextField 
-                        type="text" 
-                        label="Enter Name"
-                        variant="outlined"
-                        value={inputNameGroup.name} 
-                        onChange = {onChange}
-                         
-                        />
-                    </div>
-            
-                {/* <h4 className="GroupName">Group Name</h4>
+                <Container>
+                    <Form onSubmit={onSubmit}>
+                        <h4 className="GroupName">Group Name</h4>
+                        <div className="fieldmember" >
+                            <TextField
+                                type="text"
+                                label="Enter Name"
+                                variant="outlined"
+                                value={inputNameGroup.name}
+                                onChange={onChange}
+
+                            />
+                        </div>
+
+                        {/* <h4 className="GroupName">Group Name</h4>
                 <form className={classes.root}>
                     {inputNameGroup.map((inputNameGroup, index0) => (
                         <div className="fieldmember"  key={index0}>
@@ -161,105 +161,105 @@ export const BlockCreate = () => {
                         </div>
                     ))}
                 </form> */}
-             
-                
-            
-                <h4 className="Add-Member">Member</h4>
-
-                <form className={classes.root} onSubmit={handleSubmit}>
-                    {inputFields.map((inputField, index) => (
-                        <div className="fieldmember" key={index}>
-                            <TextField
-                                name="firstName"
-                                label="First Name"
-                                variant="outlined"
-                                value={inputField.firstName}
-                                onChange={event => handleChangeInput(index, event)}
-                            />
-                            <TextField
-                                name="lastName"
-                                label="Last Name"
-                                variant="outlined"
-                                value={inputField.lastName}
-                                onChange={event => handleChangeInput(index, event)}
-                            />
-                            <IconButton
-                                onClick={() => handleRemoveFields(index)}>
-                                <RemoveIcon />
-                            </IconButton>
-
-                            <IconButton
-                                onClick={() => handleAddFields()}>
-                                <AddIcon />
-                            </IconButton>
-                        </div>
-                    ))}
 
 
 
-                </form>
-            
+                        <h4 className="Add-Member">Member</h4>
 
-            
-                <h4 className="Add-Advisor">Advistor</h4>
+                        <form className={classes.root} onSubmit={handleSubmit}>
+                            {inputFields.map((inputField, index) => (
+                                <div className="fieldmember" key={index}>
+                                    <TextField
+                                        name="firstName"
+                                        label="First Name"
+                                        variant="outlined"
+                                        value={inputField.firstName}
+                                        onChange={event => handleChangeInput(index, event)}
+                                    />
+                                    <TextField
+                                        name="lastName"
+                                        label="Last Name"
+                                        variant="outlined"
+                                        value={inputField.lastName}
+                                        onChange={event => handleChangeInput(index, event)}
+                                    />
+                                    <IconButton
+                                        onClick={() => handleRemoveFields(index)}>
+                                        <RemoveIcon />
+                                    </IconButton>
 
-                <form className={classes.root} onSubmit={handleSubmit}>
-                    {inputFields2.map((inputField2, index2) => (
-                        <div className="fieldmember" key={index2}>
-                            <TextField
-                                name="firstName"
-                                label="First Name"
-                                variant="outlined"
-                                value2={inputField2.firstName2}
-                                onChange={event => handleChangeInput2(index2, event)}
-                            />
-                            <TextField
-                                name="lastName"
-                                label="Last Name"
-                                variant="outlined"
-                                value2={inputField2.lastName2}
-                                onChange={event => handleChangeInput2(index2, event)}
-                            />
-                            <IconButton
-                                onClick={() => handleRemoveFields2(index2)}>
-                                <RemoveIcon />
-                            </IconButton>
-                            
-                            <IconButton
-                                onClick={() => handleAddFields2()}>
-                                <AddIcon />
-                            </IconButton>
-                        </div>
-                    ))}
+                                    <IconButton
+                                        onClick={() => handleAddFields()}>
+                                        <AddIcon />
+                                    </IconButton>
+                                </div>
+                            ))}
 
-                </form>
-                
-                <Button 
-                    id="btn-create"
-                    className={classes.button}
-                    variant="outlined"
-                    color="primary"
-                    type="submit"
-                    endIcon={<Icon>add</Icon>}
-                    >Submit
+
+
+                        </form>
+
+
+
+                        <h4 className="Add-Advisor">Advistor</h4>
+
+                        <form className={classes.root} onSubmit={handleSubmit}>
+                            {inputFields2.map((inputField2, index2) => (
+                                <div className="fieldmember" key={index2}>
+                                    <TextField
+                                        name="firstName"
+                                        label="First Name"
+                                        variant="outlined"
+                                        value2={inputField2.firstName2}
+                                        onChange={event => handleChangeInput2(index2, event)}
+                                    />
+                                    <TextField
+                                        name="lastName"
+                                        label="Last Name"
+                                        variant="outlined"
+                                        value2={inputField2.lastName2}
+                                        onChange={event => handleChangeInput2(index2, event)}
+                                    />
+                                    <IconButton
+                                        onClick={() => handleRemoveFields2(index2)}>
+                                        <RemoveIcon />
+                                    </IconButton>
+
+                                    <IconButton
+                                        onClick={() => handleAddFields2()}>
+                                        <AddIcon />
+                                    </IconButton>
+                                </div>
+                            ))}
+
+                        </form>
+
+                        <Button
+                            id="btn-create"
+                            className={classes.button}
+                            variant="outlined"
+                            color="primary"
+                            type="submit"
+                            endIcon={<Icon>add</Icon>}
+                        >Submit
                 </Button>
 
-                <Button id="btn-cancel"
-                    className={classes.button2}
-                    variant="outlined"
-                    color="primary"
-                    type="submit"
-                    endIcon={<Icon>close</Icon>}
-                    onClick={handleSubmit}
-                > 
-                <Link to="/project">Cancel</Link>
-                </Button>
-                {/* <Link to="/project" className="btn btn-danger ml-2">Cancel</Link> */}
-            </Form>
-            </Container> 
-            
-            
-                 {/* <Button id="btn-create"
+                        <Button id="btn-cancel"
+                            className={classes.button2}
+                            variant="outlined"
+                            color="primary"
+                            type="submit"
+                            endIcon={<Icon>close</Icon>}
+                            onClick={handleSubmit}
+                        >
+                            <Link to="/project">Cancel</Link>
+                        </Button>
+                        {/* <Link to="/project" className="btn btn-danger ml-2">Cancel</Link> */}
+                    </Form>
+                </Container>
+
+
+                {/* <Button id="btn-create"
                     className={classes.button}
                     variant="outlined"
                     color="primary"
@@ -279,7 +279,7 @@ export const BlockCreate = () => {
                 > 
                 <Link to="/project">Cancel</Link>
                 </Button> */}
+            </div>
         </div>
-    </div>
     )
 }

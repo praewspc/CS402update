@@ -53,13 +53,17 @@ body{
     margin-right: 14px;
     position: absolute;
     border-radius: 25px;
-    
-    
 }
 
+.blockdetail{
+    width: 650px;
+    height: 693px;
+}
 .block1{
     margin-top: 20px;
-    margin-left: 48px;
+    margin-left: 32px;
+    background-color: aqua;
+    width: fit-content;
 }
 
 .hello{
@@ -71,6 +75,11 @@ body{
     /* margin-top: 28px; */
     font-weight: bold;
     font-family: SF Pro Display;
+    /* width: fit-content; */
+    /* display: flex;   */
+  /* flex-wrap: wrap; */
+  /* background-color: brown; */
+  
 }
 
 .welcome{
@@ -82,8 +91,10 @@ body{
 }
 
 .block2{
-    margin-top: -15px;
-    margin-left: 48px;
+    margin-top: -10px;
+    margin-left: 32px;
+    width: fit-content;
+    background-color: brown;
 }
 
 .block3{
@@ -100,49 +111,53 @@ body{
 div.a {
     display: inline-block;
     /* width: 895px; */
-    width: 800px;
-    height: 284px;
+    width: 750px;
+    height: 274px;
     background-color:  #F3F9FC; 
-    border-radius: 25px;
+    border-radius: 10px;
     margin-left: 32px;
     margin-top: 10px;
 }
 
 div.b {
     display: inline-block;
-    width: 320px;
-    height: 250px;
-    /* border: 1px solid #134F71;     */
+    width: 346px;
+    height: 274px;
+    border: 1px solid  rgba(19, 79, 113, 0.35);  
     background-color:  #F3F9FC; 
-    border-radius: 25px;
-    margin-right: 30px;
-    margin-top: 47px;
-    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 32px;
+    margin-top: 45px;
+    margin-left: 18px;
+    /* opacity: 0.35; */
+    
 }
 
 .cs{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 26px;
     color: #134F71;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     font-family: SF Pro Display;
+    width: fit-content;
 }
 
 .cs1, .cs2, .cs3{
-    padding-top: 4px;
-    padding-left: 28px;
+    padding-top: 0px;
+    padding-left: 26px;
     color: #000000;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     font-family: SF Pro Display;
 }
 
 .cs1-1 , .cs2-1 , .cs3-1 , .cs3-2{
-    margin-left: 12px;
+    margin-left: 10px;
     /* margin-top: 2px; */
     color: #000000;
     font-weight: normal;
+    margin-right: 26px;
 }
 .pdf1{
     top: 2px;
