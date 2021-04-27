@@ -40,7 +40,7 @@ class App extends React.Component
         <Route exact path="/create" component={CreateGroup} />
         {/* <Route exact path="/create_t" component={CreateGroup_Teacher} /> */}
         <Route exact path="/group" component={Project} />
-        <Route exact path="/task" component={Task} />
+        <Route exact path="/mygroup" component={Task} />
         <Route exact path="/calendar" component={Calendar} />
         <Route exact path="/setting" component={Setting} />
         <Route exact path="/message" component={Message} />

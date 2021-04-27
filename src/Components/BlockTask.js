@@ -4,7 +4,7 @@ function BlockTask(){
     return (
         <div className="rightblocktask">
             <div className="blockwhitetask">
-                <h1 className="Topname">My Task</h1>
+                <h1 className="Topname">My Group</h1>
             </div>
         </div>
     )

@@ -24,9 +24,9 @@ export const SidebarData = [
         link : "/group"
     },
     {
-        title : "My Task" ,
+        title : "My Group" ,
         icon : <PlaylistAddCheckIcon /> ,
-        link : "/task"
+        link : "/mygroup"
     },
     {
         title : "Calendar" ,

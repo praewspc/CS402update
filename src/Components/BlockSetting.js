@@ -5,14 +5,14 @@ import TextField from '@material-ui/core/TextField';
 import Button from "react-bootstrap/Button";
 // import './NewitemsForm.css';
 import Figure from "react-bootstrap/Figure";
-import pooh1 from '../assets/pooh1.jpg' ;
+import pooh2 from '../assets/pooh2.jpg' ;
 function BlockSetting(){
     return (
         <div className="rightblocksetting">
             <div className="blockwhitesetting">
                 <h1 className="Topname">Setting</h1>
                 <div>
-                    <img className="img-thumbnail" src={pooh1} alt=""/>
+                    <img className="img-thumbnail" src={pooh2} alt=""/>
                    
                 </div>
 

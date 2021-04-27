@@ -9,7 +9,7 @@
 .blocktop.row{
         width: 850px;
         height: 693px;
-        background-color: rgba(255, 99, 71, 0.2);
+        /* background-color: rgba(255, 99, 71, 0.2); */
         margin-right: 0px;
         margin-left: 0px;
         /* margin-left: 60px; */
@@ -20,7 +20,7 @@
 .blocktop2.row{
         width: 398px;
         height: 693px;
-        background-color: rgba(19, 79, 113, 0.2) ;
+        /* background-color: rgba(19, 79, 113, 0.2) ; */
         margin-right: 0px;
         margin-left: 850px;
         position: absolute;

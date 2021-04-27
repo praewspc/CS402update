@@ -1,13 +1,14 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.css'
+import pooh2 from '../assets/pooh2.jpg';
 
 function BlockHome() {
     return (
         <div className="rightblockhome">
             <div className="blockwhitehome">
                 <Row className="blocktop">
-                    <Col >
+                <Col >
                         <div className="block1">
                             <p className="hello">Hello, Phurit</p>
                         </div>
@@ -42,19 +43,48 @@ function BlockHome() {
                             </div>
                         </div>
 
+                        <Row className="pdf">
+                            <span className="pdf1-1"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></span>
+                            <span className="pdf1-2">CS401 1-63 Course Syllabusfile</span>
+                        </Row>
+
+                        <Row className="pdf2">
+                            <span className="pdf2-1"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></span>
+                            <span className="pdf2-2">CS402 1-63 Course Syllabusfile</span>
+                        </Row>
+
+                        <hr className="hr-pdf"></hr>
+
+                        <p className="form-home">ฟอร์มสำหรับแจ้งข้อมูลต่าง ๆ</p>
+
+                        <Row className="pdf3">
+                            <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
+                            <span className="pdf3-2">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </span>
+                            <div className="pdf3-3">Available Until 15 October 2020, 11:55 Pm</div>
+                        </Row>
+
+                        <Row className="pdf4">
+                            <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
+                            <span className="pdf2-2">คลิกที่นี่เพื่อแจ้งตารางสอบปลายภาค ภาคเรียนที่ 1 ปีการศึกษา 2563 (ต้องกรอกข้อมูลนี้ทุกคน)</span>
+                            <div className="pdf3-3">Available Until 31 October 2020, 11:55 Pm</div>
+                        </Row>
+                        
                     </Col>
 
 
                 </Row>
                 <Row className="blocktop2">
                     <Col >
-                        <div className="block1">
-                        {/* <i class="fas fa-search"></i> */}
-                            <p className="hello">Phurit</p>
-                        </div>
-                        {/* <div className="block2">
-                            <p className="welcome">Welcome back</p>
-                        </div> */}
+                        <Row className="block123">
+                            
+                            <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
+                            
+                            <span className="stuname">Phurit Apichonlati</span>
+
+                            <span><img className="pichome" src={pooh2} alt=""/></span>
+                           
+                        </Row>
+                        
 
                         <div class="b">
                             <div className="month">
@@ -134,6 +164,33 @@ function BlockHome() {
                                 <span className="feb6">6</span>
                             </Row>
 
+                        </div>
+
+                        <p className="noti-home">Notification </p>
+
+                        <div className="c">
+                            <p className="noti1">First Meet: Online Meeting Via Cisco Webex</p>
+                            <div className="noti1-1">
+                                <span><i class="fa fa-calendar fa-1x" aria-hidden="true"></i></span>
+                                <span className="noti2">Thursday 12, 2020</span>
+                            </div>
+                           <div className="noti1-1">
+                               <span><i class="fa fa-clock-o fa-1x" aria-hidden="true"></i></span>
+                               <span className="noti3">12.40 - 13.20 PM</span>
+                           </div>
+                            
+                        </div>
+
+                        <div className="d">
+                            <p className="noti1">First Meet: Online Meeting Via Cisco Webex</p>
+                            <div className="noti1-1">
+                                <span><i class="fa fa-calendar fa-1x" aria-hidden="true"></i></span>
+                                <span className="noti2">Thursday 12, 2020</span>
+                            </div>
+                           <div className="noti1-1">
+                               <span><i class="fa fa-clock-o fa-1x" aria-hidden="true"></i></span>
+                               <span className="noti3">12.40 - 13.20 PM</span>
+                           </div>
                         </div>
 
                     </Col>

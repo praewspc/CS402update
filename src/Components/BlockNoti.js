@@ -1,9 +1,10 @@
 import React , {useContext} from 'react';
 import {GlobalContext} from '../Context/GlobalState' ;
 import { Container } from 'react-bootstrap';
+import {Link , useHistory} from 'react-router-dom';
 import {ListGroup , ListGroupItem , Button  } from 'reactstrap'
 
-function BlockNoti (){
+export const BlockNoti = () => {
 
     return (
         <div className="rightblocknoti">
@@ -12,6 +13,7 @@ function BlockNoti (){
 
                 <div className="list-group-noti">
                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                             
                             <div class=" w-100 justify-content-between">
                                 <h5 class="mb-1">Nutchakorn Ngamsaowaros</h5>
                                 <p class="mb-1">Accept request</p>
@@ -25,7 +27,7 @@ function BlockNoti (){
                             color="primary">Cancel</Button>{' '} */}
                            
                         </a>
-                        </div>
+                </div>
 
                         <div className="list-group-noti">
                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
@@ -46,7 +48,5 @@ function BlockNoti (){
             
             </div>
         </div>
-    );
+    )
 }
-
-export default BlockNoti;

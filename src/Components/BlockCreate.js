@@ -242,7 +242,7 @@ export const BlockCreate = () => {
                             type="submit"
                             endIcon={<Icon>add</Icon>}
                         >Submit
-                </Button>
+                        </Button>
 
                         <Button id="btn-cancel"
                             className={classes.button2}
