@@ -25,11 +25,67 @@
     position: absolute;
     border-radius: 25px;
 }
-.Topname{
-    margin-top: 48px;
+.Topname-mygroup{
+    margin-top: 28px;
     margin-left: 48px;
     font-family: SF Pro Display;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     color: #2F4050;
+}
+
+hr.hr-mygroup{
+    /* color: #134F71; */
+    /* justify-items: center; */
+    width: 1151px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    margin-bottom: 0px;
+    margin-left: 48px;
+}
+
+.name-mygroup{
+    margin-top: 28px;
+    margin-left: 68px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F4050;
+}
+
+.manypeople{
+    /* margin-top: 14px; */
+    /* margin-left: 68px; */
+    font-family: SF Pro Display;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #2F4050;
+}
+
+.blockmem-img.row{
+    margin-top: 14px;
+    margin-left: 68px;
+    width: 346px;
+    height: 40px;
+}
+
+.picpro{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+div.blockinblock{
+    width: 1111px;
+    height: 450px;
+    background-color:  #F3F9FC; 
+    display: block;
+    margin-left: 68px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+#input.exampleFormControlFile1{
+    margin-top: 10px;
 }

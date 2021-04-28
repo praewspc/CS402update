@@ -10,7 +10,9 @@ function BlockSetting(){
     return (
         <div className="rightblocksetting">
             <div className="blockwhitesetting">
-                <h1 className="Topname">Setting</h1>
+                <h1 className="TopnameSetting">Setting</h1>
+
+                <hr className="hr-setting"></hr>
                 <div>
                     <img className="img-thumbnail" src={pooh2} alt=""/>
                    

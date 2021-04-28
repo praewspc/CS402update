@@ -24,6 +24,28 @@
     margin-right: 14px;
     position: absolute;
     border-radius: 25px;
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.TopnameGroup{
+    margin-top: 28px;
+    margin-left: 48px;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2F4050;
+}
+
+hr.hr-group{
+    /* color: #134F71; */
+    /* justify-items: center; */
+    width: 1151px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    margin-bottom: 0px;
+    margin-left: 48px;
 }
 .projectlist{
     margin-left: 48px;
@@ -51,6 +73,7 @@
 .btn-warning{
     margin-left: 30px;
     
+    
 }
 
 .btn-danger{
@@ -61,4 +84,14 @@
 .btn-delete{
     margin-left: 4px;
     margin-top: 0px;
+    
+}
+
+.MemberList{
+    margin-top: 8px;
+    
+}
+
+.AdvisorList{
+    margin-top: 8px;
 }

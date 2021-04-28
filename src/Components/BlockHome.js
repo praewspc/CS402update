@@ -2,8 +2,9 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.css'
 import pooh2 from '../assets/pooh2.jpg';
+import {Link } from 'react-router-dom';
 
-function BlockHome() {
+export const BlockHome = () => {
     return (
         <div className="rightblockhome">
             <div className="blockwhitehome">
@@ -36,7 +37,7 @@ function BlockHome() {
                             <div className="paragraph3">
                                 <p className="cs3">ผู้ประสานงาน:
                                 <span className="cs3-1">อาจารย์ นุชชากร งามเสาวรส (FB: Nutchakorn Ngam)</span>
-                                    <div className="cs3-2">อาจารย์ ดร.วนิดา พฤทธิวิทยา (Wanidap@Cs.Tu.Ac.Th)</div>
+                                    <div className="cs3-2">ผศ. ดร.วนิดา พฤทธิวิทยา (wanidap@cs.tu.ac.th)</div>
 
                                 </p>
 
@@ -45,12 +46,16 @@ function BlockHome() {
 
                         <Row className="pdf">
                             <span className="pdf1-1"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></span>
-                            <span className="pdf1-2">CS401 1-63 Course Syllabusfile</span>
+                            <span className="pdf1-2">
+                                <a href="https://drive.google.com/file/d/1g0_SuPkRHYAcsK8ELNg7X1RRLp081Iwp/view?usp=sharing" class="text-decoration-none">CS401 1-63 Course Syllabusfile</a> 
+                            </span>
                         </Row>
 
                         <Row className="pdf2">
                             <span className="pdf2-1"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></span>
-                            <span className="pdf2-2">CS402 1-63 Course Syllabusfile</span>
+                            <span className="pdf2-2">
+                                <a href="https://drive.google.com/file/d/1yiirU8v1ETAjeDN2cbja5cJeZLyJdAIK/view?usp=sharing">CS402 1-63 Course Syllabusfile</a>
+                            </span>
                         </Row>
 
                         <hr className="hr-pdf"></hr>
@@ -59,13 +64,21 @@ function BlockHome() {
 
                         <Row className="pdf3">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
-                            <span className="pdf3-2">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </span>
+                            <span className="pdf3-2">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-E-NO4CGagMPAV7PcqYRHjDp3rqHWSuRHmSi5mvkbN3BkA/viewform?usp=sf_link" class="text-decoration-none">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
+                            </span>
                             <div className="pdf3-3">Available Until 15 October 2020, 11:55 Pm</div>
                         </Row>
 
                         <Row className="pdf4">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
-                            <span className="pdf2-2">คลิกที่นี่เพื่อแจ้งตารางสอบปลายภาค ภาคเรียนที่ 1 ปีการศึกษา 2563 (ต้องกรอกข้อมูลนี้ทุกคน)</span>
+                            <span className="pdf2-2">
+                                <a href="https://docs.google.com/forms/d/132RzfKMzwtThyp3EqY5PA0EnTSQNTQq6m4M1BubK_NU/edit" 
+                                    class="text-decoration-none">
+                                    คลิกที่นี่เพื่อแจ้งตารางสอบปลายภาค ภาคเรียนที่ 1 ปีการศึกษา 2563 (ต้องกรอกข้อมูลนี้ทุกคน)    
+                                    
+                                </a>
+                            </span>
                             <div className="pdf3-3">Available Until 31 October 2020, 11:55 Pm</div>
                         </Row>
                         
@@ -203,5 +216,3 @@ function BlockHome() {
 
     )
 }
-
-export default BlockHome;

@@ -29,7 +29,8 @@ export const ProjectList = () => {
                             onClick={() => removeUser(user.id)}
                             color="danger">Delete</Button>
                         </div>
-                    <div>Member :</div>
+                    <div className="MemberList">Member :</div>
+                    <div className="AdvisorList">Advisor :</div>
                 </ListGroupItem>
                 ))}
                 </>

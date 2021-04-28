@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Row, Col } from 'react-bootstrap';
 import Sidebar_Teacher from "./Teacher/Sidebar_Teacher";
-import BlockHome_Teacher from './Teacher/BlockHome_Teacher';
+import {BlockHome_Teacher} from './Teacher/BlockHome_Teacher';
 
 function Home_Teacher() {
     return (

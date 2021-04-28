@@ -19,14 +19,14 @@ export const SidebarData_Teacher = [
         link : "/create_t"
     },
     {
-        title : "Project" ,
+        title : "Group" ,
         icon : <WorkIcon /> ,
-        link : "/project_t"
+        link : "/group_t"
     },
     {
-        title : "My Task" ,
+        title : "My Group" ,
         icon : <PlaylistAddCheckIcon /> ,
-        link : "/task_t"
+        link : "/group_t"
     },
     {
         title : "Calendar" ,

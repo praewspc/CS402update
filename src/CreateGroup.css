@@ -9,7 +9,7 @@
     /* width: 500em;
     height: 58em; */
     /* background-color: burlywood; */
-   
+
 }
 
 .blockwhitecreate{
@@ -24,12 +24,16 @@
     margin-right: 14px;
     position: absolute;
     border-radius: 25px;
+    /* scroll-behavior: smooth; */
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
 }
-.Topname{
-    margin-top: 48px;
+.TopnameCreate{
+    margin-top: 28px;
     margin-left: 48px;
     font-family: SF Pro Display;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     color: #2F4050;
 }
@@ -77,3 +81,12 @@
     padding-top: 100px;
 }
 
+hr.hr-create{
+    /* color: #134F71; */
+    /* justify-items: center; */
+    width: 1151px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    margin-bottom: 0px;
+    margin-left: 48px;
+}

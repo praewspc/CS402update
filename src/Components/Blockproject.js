@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     button2: {
         margin: theme.spacing(1),
         marginLeft: "24px",
-        // marginTop: "40px"
+        marginTop: "20px",
     }
 
 }))
@@ -24,8 +24,9 @@ export const Blockproject = () => {
         <div className="rightblockproject">
             
             <div className="blockwhiteproject">
-            <h1 className="Topname">Group</h1> 
+            <h1 className="TopnameGroup">Group</h1> 
 
+            <hr className="hr-group"></hr>
             <Container>
                 <Button id="btn-addproject"
                     className={classes.button2}

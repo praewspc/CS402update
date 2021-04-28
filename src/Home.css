@@ -105,6 +105,13 @@ body{
     vertical-align:middle;
     color: #134F71;
 }
+
+.search_t{
+    width: fit-content;
+    margin-left: 20px;
+    vertical-align:middle;
+    color: #134F71;
+}
 .stuname{
     font-size: 18px;
     color: #134F71;

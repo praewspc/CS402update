@@ -129,10 +129,13 @@ export const BlockCreate = () => {
         <div className="rightblockcreate">
 
             <div className="blockwhitecreate">
-                <h1 className="Topname">Create Group</h1>
+                <h1 className="TopnameCreate">Create Group</h1>
+
+                <hr className="hr-create"></hr>
 
                 <Container>
                     <Form onSubmit={onSubmit}>
+                        
                         <h4 className="GroupName">Group Name</h4>
                         <div className="fieldmember" >
                             <TextField

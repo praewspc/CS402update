@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Row, Col } from 'react-bootstrap';
 import Sidebar from "./Components/Sidebar";
-import BlockHome from "./Components/BlockHome";
+import {BlockHome} from "./Components/BlockHome";
 import './Homev2.css'
 
 function Home() {
