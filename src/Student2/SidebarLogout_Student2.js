@@ -1,7 +1,8 @@
 import React from 'react' 
 import 'font-awesome/css/font-awesome.css'
+// import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
-export const SidebarLogout = [
+export const SidebarLogout_Student2 = [
     
     {
         title : "Log out" ,

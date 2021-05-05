@@ -1,6 +1,6 @@
 import React from 'react';
 import './Message.css' ;
-import {Row , Col} from 'react-bootstrap';
+import {Row } from 'react-bootstrap';
 import Sidebar from "./Components/Sidebar";
 import BlockMessage from "./Components/BlockMessage";
 

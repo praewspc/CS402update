@@ -6,6 +6,7 @@ import Icon from '@material-ui/core/Icon';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import {ProjectList} from './ProjectList';
+import BorderAllIcon from '@material-ui/icons/BorderAll';
 
 const useStyles = makeStyles((theme) => ({
    
@@ -13,7 +14,12 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(1),
         marginLeft: "24px",
         marginTop: "20px",
-    }
+    },
+    button3: {
+      margin: theme.spacing(1),
+      marginLeft: "4px",
+      marginTop: "20px"
+    },
 
 }))
 
@@ -37,6 +43,16 @@ export const Blockproject = () => {
                    
                 > 
                 <Link to="/create">Add Group</Link>
+                </Button>
+
+                <Button 
+                    className={classes.button3} 
+                    variant="outlined"
+                    color="primary"
+                    type="submit"
+                    endIcon={<BorderAllIcon />}
+                    // onClick={getGroup}
+                    > Show All Group
                 </Button>
             </Container>
 

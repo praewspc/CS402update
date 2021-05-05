@@ -14,8 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // import { Input } from '@material-ui/core';
 import { v4 as uuid } from 'uuid';
 import {
-    Form,
-    // Button
+    Form
 } from 'reactstrap';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,9 +33,9 @@ const useStyles = makeStyles((theme) => ({
 
         marginTop: "50px"
     }
-}));
 
-export const BlockCreate = () => {
+}))
+export const BlockCreate_Student2 = () => {
 
     const classes = useStyles();
 

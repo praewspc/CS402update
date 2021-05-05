@@ -75,6 +75,7 @@ margin-left: 0;
 .SidebarList #icon{
   width: 24px;
   height: 24px;
+  margin-left: 20px;
 }
 
 .SidebarList .row{
@@ -109,7 +110,7 @@ margin-left: 0;
 
 .row #title{
   flex: 70%;
-  
+  margin-left: 4px;
 }
 
 hr.solid {
@@ -119,4 +120,8 @@ hr.solid {
   color: #134F71;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
+}
+
+.badge-danger{
+  margin-left: 10px;
 }

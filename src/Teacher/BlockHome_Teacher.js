@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.css'
-import sweetmango from '../assets/sweetmango.png';
+import noon from '../assets/noon.jpg';
 export const BlockHome_Teacher = () => {
 
     return (
@@ -10,7 +10,7 @@ export const BlockHome_Teacher = () => {
                 <Row className="blocktop">
                 <Col >
                         <div className="block1">
-                            <p className="hello">Hello, Nutchakorn</p>
+                            <p className="hello">Hello, Prapaporn</p>
                         </div>
 
                         <div className="block2">
@@ -91,9 +91,9 @@ export const BlockHome_Teacher = () => {
                             
                             <span className="search_t"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
                             
-                            <span className="stuname">Nutchakorn Ngamsaowaros</span>
+                            <span className="stuname">Prapaporn Rattanatamrong</span>
 
-                            <span><img className="pichome" src={sweetmango} alt=""/></span>
+                            <span><img className="pichome" src={noon} alt=""/></span>
                            
                         </Row>
                         

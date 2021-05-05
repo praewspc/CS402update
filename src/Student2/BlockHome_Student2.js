@@ -1,16 +1,17 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.css'
-import pooh2 from '../assets/pooh2.jpg';
+import praew1 from '../assets/praew1.jpg';
 
-export const BlockHome = () => {
+export const BlockHome_Student2 = () => {
+
     return (
         <div className="rightblockhome">
             <div className="blockwhitehome">
                 <Row className="blocktop">
                 <Col >
                         <div className="block1">
-                            <p className="hello">Hello, Phurit</p>
+                            <p className="hello">Hello, Supitcha</p>
                         </div>
 
                         <div className="block2">
@@ -89,13 +90,11 @@ export const BlockHome = () => {
                     <Col >
                         <Row className="block123">
                             
-                            {/* <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
+                            <span className="search_t"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
                             
-                            <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
-                            
-                            <span className="stuname">Phurit Apichonlati</span>
+                            <span className="stuname">Supitcha Ratanatrimas</span>
 
-                            <span><img className="pichome" src={pooh2} alt=""/></span>
+                            <span><img className="pichome" src={praew1} alt=""/></span>
                            
                         </Row>
                         

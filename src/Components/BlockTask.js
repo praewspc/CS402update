@@ -1,9 +1,11 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import pooh2 from '../assets/pooh2.jpg';
 import praew1 from '../assets/praew1.jpg';
 import sweetmango from '../assets/sweetmango.png';
-function BlockTask(){
+
+export const BlockTask = () => {
+
     return (
         <div className="rightblocktask">
             <div className="blockwhitetask">
@@ -23,7 +25,7 @@ function BlockTask(){
                 <form>
                     <div class="form-group">
                         {/* <label for="exampleFormControlFile1">Example file input</label> */}
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1" />
+                        {/* <input type="file" class="form-control-file" id="exampleFormControlFile1" /> */}
                     </div>
                     </form>
                 </div>
@@ -34,4 +36,3 @@ function BlockTask(){
     )
 }
 
-export default BlockTask;

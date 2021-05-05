@@ -6,11 +6,11 @@ import EventIcon from '@material-ui/icons/Event';
 import SettingsIcon from '@material-ui/icons/Settings';
 
 
-export const SidebarData_Teacher = [
+export const SidebarData_Advisor = [
     {
         title : "Dashboard" ,
         icon : <DashboardIcon /> ,
-        link : "/home_t"
+        link : "/home_a"
     },
     // {
     //     title : "Create Group" ,
@@ -20,21 +20,21 @@ export const SidebarData_Teacher = [
     {
         title : "Group" ,
         icon : <WorkIcon /> ,
-        link : "/group_t"
+        link : "/group_a"
     },
     {
         title : "My Group" ,
         icon : <PlaylistAddCheckIcon /> ,
-        link : "/group_t"
+        link : "/group_a"
     },
     {
         title : "Calendar" ,
         icon : <EventIcon /> ,
-        link : "/calendar_t"
+        link : "/calendar_a"
     },
     {
         title : "Setting" ,
         icon : <SettingsIcon /> ,
-        link : "/setting_t"
+        link : "/setting_a"
     },
 ];

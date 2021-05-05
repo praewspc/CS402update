@@ -1,14 +1,14 @@
-import React , {Component} from 'react';
+import React from 'react';
 import { Formik, Form } from 'formik';
 import { TextField } from './TextField';
 import * as Yup from 'yup';
 import axios from 'axios';
 import '../Home.css';
-import Home from '../Home';
-import { BrowserRouter, Router, Route , Switch} from "react-router-dom";
-import { browserHistory } from "react-router-dom";
+// import Home from '../Home';
+// import { BrowserRouter, Router, Route , Switch} from "react-router-dom";
+// import { browserHistory } from "react-router-dom";
 import { useHistory } from "react-router-dom";
-import { withRouter } from 'react-router-dom'
+// import { withRouter } from 'react-router-dom'
 
 
 export const Signup = () => {
@@ -41,12 +41,12 @@ export const Signup = () => {
          })
          .then((response) => {
             console.log("React",response);
-            if(response.data == "Student"){
+            if(response.data === "Student"){
               history.push ('/home') 
             } 
-            else if (response.data == "Teacher"){
+            else if (response.data === "Teacher"){
               history.push ('/home') }
-            else if (response.data == "Adivisor"){
+            else if (response.data === "Adivisor"){
                 history.push ('/home') }
          }).catch((error) => {
           console.log(error);

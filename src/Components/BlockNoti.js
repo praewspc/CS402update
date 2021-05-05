@@ -1,8 +1,4 @@
-import React, { useContext } from 'react';
-import { GlobalContext } from '../Context/GlobalState';
-import { Container } from 'react-bootstrap';
-import { Link, useHistory } from 'react-router-dom';
-import { ListGroup, ListGroupItem, Button } from 'reactstrap'
+import React from 'react';
 
 export const BlockNoti = () => {
 

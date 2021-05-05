@@ -1,12 +1,12 @@
 import React from 'react'
 import '../App.css';
-import {SidebarData_Teacher} from './SidebarData_Teacher';
-import {SidebarData_Message_Teacher} from './SidebarData_Message_Teacher' ;
-import {SidebarData_Noti_Teacher} from './SidebarData_Noti_Teacher' ;
-import {SidebarData_Comment_Teacher} from './SidebarData_Comment_Teacher' ;
-import {SidebarLogout_Teacher} from './SidebarLogout_Teacher';
+import {SidebarData_Advisor} from './SidebarData_Advisor';
+import {SidebarData_Message_Advisor} from './SidebarData_Message_Advisor' ;
+import {SidebarData_Noti_Advisor} from './SidebarData_Noti_Advisor' ;
+import {SidebarData_Comment_Advisor} from './SidebarData_Comment_Advisor' ;
+import {SidebarLogout_Advisor} from './SidebarLogout_Advisor';
 
-function Sidebar_Teacher() {
+function Sidebar_Advisor() {
     return (
         <div className="Sidebar">
             <div className="Projectname1"> ADMINISTRATIVE </div>
@@ -15,7 +15,7 @@ function Sidebar_Teacher() {
             <hr class="solid"></hr>
 
             <ul className="SidebarList">
-                {SidebarData_Teacher.map((val,key) => {
+                {SidebarData_Advisor.map((val,key) => {
                     return (
                         <li 
                             key={key} 
@@ -34,7 +34,7 @@ function Sidebar_Teacher() {
             <hr class="solid"></hr>
 
             <ul className="SidebarList">
-                {SidebarData_Message_Teacher.map((val,key) => {
+                {SidebarData_Message_Advisor.map((val,key) => {
                     return (
                         <li 
                             
@@ -50,7 +50,7 @@ function Sidebar_Teacher() {
                         </li>
                     );
                 })}
-                {SidebarData_Noti_Teacher.map((val,key) => {
+                {SidebarData_Noti_Advisor.map((val,key) => {
                     return (
                         <li 
                             
@@ -68,7 +68,7 @@ function Sidebar_Teacher() {
                         </li>
                     );
                 })}
-                {SidebarData_Comment_Teacher.map((val,key) => {
+                {SidebarData_Comment_Advisor.map((val,key) => {
                     return (
                         <li 
                             
@@ -91,7 +91,7 @@ function Sidebar_Teacher() {
             <hr class="solid"></hr>
             
              <ul className="SidebarList">
-                {SidebarLogout_Teacher.map((val,key) => {
+                {SidebarLogout_Advisor.map((val,key) => {
                     return (
                         <li 
                             key={key} 
@@ -112,4 +112,4 @@ function Sidebar_Teacher() {
     );
 }
 
-export default Sidebar_Teacher ;
+export default Sidebar_Advisor ;

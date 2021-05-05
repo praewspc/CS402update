@@ -1,6 +1,6 @@
 import React from 'react';
 import './Notification_Teacher.css' ;
-import {Row , Col} from 'react-bootstrap';
+import {Row } from 'react-bootstrap';
 import Sidebar_Teacher from "./Teacher/Sidebar_Teacher";
 import BlockNoti_Teacher from "./Teacher/BlockNoti_Teacher";
 

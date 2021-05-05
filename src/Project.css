@@ -72,13 +72,13 @@ hr.hr-group{
 }
 .btn-warning{
     margin-left: 30px;
-    
-    
 }
-
+.btn-show{
+    margin-left: 4px;
+    margin-top: 0px;
+}
 .btn-danger{
     margin-left: 4px;
-   
 }
 
 .btn-delete{

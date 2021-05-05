@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { GlobalContext } from '../Context/GlobalState';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import Sidebar from "./Sidebar";
 import '../CreateGroup.css';
 import TextField from '@material-ui/core/TextField';
@@ -9,9 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Icon from '@material-ui/core/Icon';
 import {
     Form,
-    FormGroup,
-    Label,
-    Input,
     Button
 } from 'reactstrap';
 
@@ -34,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
 
 }))
 
-export const EditUser = (props) => {
+export const EditCreateGroup = (props) => {
     const classes = useStyles();
     const [selectedUser, setSelectedUser] = useState({
         id: '',

@@ -1,10 +1,5 @@
 import React from 'react';
-import Row from 'react-bootstrap/esm/Row';
-import Col from "react-bootstrap/Col";
-import TextField from '@material-ui/core/TextField';
-import Button from "react-bootstrap/Button";
 // import './NewitemsForm.css';
-import Figure from "react-bootstrap/Figure";
 import pooh2 from '../assets/pooh2.jpg' ;
 function BlockSetting(){
     return (
