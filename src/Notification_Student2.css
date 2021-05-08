@@ -52,11 +52,11 @@ hr.hr-noti{
     margin-top: 20px;
 }
 
-a.btn.btn-primary{
-    margin-top: 10px;
-}
-
-/* .btn-cancel{
+/* .btn-primary{
     margin-top: 0px;
-    margin-left: 4px;
 } */
+
+.btn.btn-decline{
+    margin-top: 10px;
+    margin-left: 4px;
+}

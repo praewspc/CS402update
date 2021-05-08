@@ -25,7 +25,7 @@ export const SidebarData_Advisor = [
     {
         title : "My Group" ,
         icon : <PlaylistAddCheckIcon /> ,
-        link : "/group_a"
+        link : "/mygroup_a"
     },
     {
         title : "Calendar" ,

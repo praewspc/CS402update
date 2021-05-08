@@ -114,7 +114,7 @@ export const EditCreateGroup = (props) => {
                     <Link to="/group" className="btn btn-danger ml-2">Cancel</Link> */}
                 </Form>
                 </div>
-        </div>
+                </div>
             </Col>
         </Row>
     )

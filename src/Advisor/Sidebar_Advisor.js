@@ -62,7 +62,7 @@ function Sidebar_Advisor() {
                             }}
                         >
                             <div id="icon">{val.icon}</div> <div id="title">{val.title}
-                                <span class="badge badge-danger">2</span>
+                                <span class="badge badge-danger">1</span>
                             </div>
                             
                         </li>

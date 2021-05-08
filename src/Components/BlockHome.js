@@ -2,9 +2,11 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.css'
 import pooh2 from '../assets/pooh2.jpg';
+import { Link } from '@material-ui/core';
 
 export const BlockHome = () => {
     return (
+        
         <div className="rightblockhome">
             <div className="blockwhitehome">
                 <Row className="blocktop">
@@ -64,7 +66,7 @@ export const BlockHome = () => {
                         <Row className="pdf3">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
                             <span className="pdf3-2">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-E-NO4CGagMPAV7PcqYRHjDp3rqHWSuRHmSi5mvkbN3BkA/viewform?usp=sf_link" class="text-decoration-none">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
+                                <a href="/project_inform">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
                             </span>
                             <div className="pdf3-3">Available Until 15 October 2020, 11:55 Pm</div>
                         </Row>
@@ -91,7 +93,7 @@ export const BlockHome = () => {
                             
                             {/* <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
                             
-                            <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
+                            {/* <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
                             
                             <span className="stuname">Phurit Apichonlati</span>
 

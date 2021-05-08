@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 
 export const BlockNoti = () => {
 
@@ -18,11 +19,11 @@ export const BlockNoti = () => {
                             <small>Now</small>
                         </div>
 
-                        <a href="/mygroup"
-                            class="btn btn-primary"
-                            role="button"
-                            aria-pressed="true">Go to group
-                                </a>
+                        <Link
+                                className="btn btn-primary"
+                                to={`/mygroup`}>Go to Group
+                                
+                        </Link>
                         {/* <Button 
                                 className="btn-accept"
                                 color="primary">Go to group</Button>{' '} */}
@@ -40,11 +41,16 @@ export const BlockNoti = () => {
                             <p class="mb-1">Accept request</p>
                             <small>2 mintues ago</small>
                         </div>
-                        <a href="/mygroup"
+                        <Link
+                                className="btn btn-primary"
+                                to={`/mygroup`}>Go to Group
+                                
+                        </Link>
+                        {/* <a href="/mygroup"
                             class="btn btn-primary"
                             role="button"
                             aria-pressed="true">Go to group
-                        </a>
+                        </a> */}
                         {/* <Button 
                             className="btn-accept"
                             color="primary">Go to group</Button>{' '} */}

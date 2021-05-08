@@ -45,9 +45,9 @@ export const Signup = () => {
               history.push ('/home') 
             } 
             else if (response.data === "Teacher"){
-              history.push ('/home') }
+              history.push ('/home_t') }
             else if (response.data === "Adivisor"){
-                history.push ('/home') }
+                history.push ('/home_a') }
          }).catch((error) => {
           console.log(error);
         })

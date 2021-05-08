@@ -89,7 +89,7 @@ export const BlockHome_Teacher = () => {
                     <Col >
                         <Row className="block123">
                             
-                            <span className="search_t"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
+                            {/* <span className="search_t"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
                             
                             <span className="stuname">Prapaporn Rattanatamrong</span>
 

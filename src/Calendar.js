@@ -4,7 +4,7 @@ import {Row} from 'react-bootstrap';
 import Sidebar from "./Components/Sidebar";
 import {BlockCalendar} from "./Components/BlockCalendar";
 
-function Task() {
+function Calendar() {
     return (
         <Row>
             <Sidebar />
@@ -13,4 +13,4 @@ function Task() {
     );
   }
   
-  export default Task;
+  export default Calendar;

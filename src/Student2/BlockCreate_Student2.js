@@ -61,7 +61,7 @@ export const BlockCreate_Student2 = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push('/group');
+        history.push('/group2');
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)
@@ -73,7 +73,7 @@ export const BlockCreate_Student2 = () => {
             name
         }
         addUser(newUser);
-        history.push('/group');
+        history.push('/group2');
         console.log("InputFields", inputNameGroup)
         console.log("InputFields", inputFields)
         console.log("InputFields", inputFields2)
@@ -251,7 +251,7 @@ export const BlockCreate_Student2 = () => {
                             endIcon={<Icon>close</Icon>}
                             onClick={handleSubmit}
                         >
-                            <Link to="/project">Cancel</Link>
+                            <Link to="/project2">Cancel</Link>
                         </Button>
                         {/* <Link to="/project" className="btn btn-danger ml-2">Cancel</Link> */}
                     </Form>

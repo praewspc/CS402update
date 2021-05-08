@@ -1,4 +1,4 @@
-.rightblocknoti{
+.rightblock_InformProject{
     margin: 0px;
     margin-left: 276px;
     width: 1275px;
@@ -9,10 +9,10 @@
     /* width: 500em;
     height: 58em; */
     /* background-color: burlywood; */
-   
+
 }
 
-.blockwhitenoti{
+.blockwhite_InformProject{
     height: 693px; 
     display: block;
     width: 1247px;
@@ -24,9 +24,12 @@
     margin-right: 14px;
     position: absolute;
     border-radius: 25px;
+    /* scroll-behavior: smooth; */
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
 }
-
-.TopnameNoti{
+.Topname_InformProject{
     margin-top: 28px;
     margin-left: 48px;
     font-family: SF Pro Display;
@@ -35,7 +38,7 @@
     color: #2F4050;
 }
 
-hr.hr-noti{
+hr.hr-InformProject{
     /* color: #134F71; */
     /* justify-items: center; */
     width: 1151px;
@@ -44,19 +47,3 @@ hr.hr-noti{
     margin-bottom: 0px;
     margin-left: 48px;
 }
-
-.list-group-noti-stu{
-    padding-left: 48px;
-    width: 1218px;
-    padding-right: 48px;
-    margin-top: 20px;
-}
-
-a.btn.btn-primary{
-    margin-top: 10px;
-}
-
-/* .btn-cancel{
-    margin-top: 0px;
-    margin-left: 4px;
-} */

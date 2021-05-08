@@ -65,7 +65,7 @@ export const BlockHome_Student2 = () => {
                         <Row className="pdf3">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
                             <span className="pdf3-2">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-E-NO4CGagMPAV7PcqYRHjDp3rqHWSuRHmSi5mvkbN3BkA/viewform?usp=sf_link" class="text-decoration-none">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
+                                <a href="/project_inform">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
                             </span>
                             <div className="pdf3-3">Available Until 15 October 2020, 11:55 Pm</div>
                         </Row>
@@ -88,9 +88,11 @@ export const BlockHome_Student2 = () => {
                 </Row>
                 <Row className="blocktop2">
                     <Col >
-                        <Row className="block123">
+                    <Row className="block123">
                             
-                            <span className="search_t"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span>
+                            {/* <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
+                            
+                            {/* <span className="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i> </span> */}
                             
                             <span className="stuname">Supitcha Ratanatrimas</span>
 

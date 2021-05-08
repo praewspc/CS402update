@@ -75,11 +75,13 @@ body{
 .block123.row{
     margin-top: 33px;
     /* background-color: aqua; */
-    /* width: fit-content; */
-    width: 346px;
+    width: fit-content;
+    /* width: 346px; */
     margin-left: 18px;
     height: 40px;
     margin-right: 32px;
+    Justify-content:right ;
+    Float:right ;
 }
 
 

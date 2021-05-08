@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'reactstrap'
+import {Link } from 'react-router-dom';
 
 export const BlockNoti_Student2 = () => {
 
@@ -19,12 +20,22 @@ export const BlockNoti_Student2 = () => {
                                 <p class="mb-1">Sent request to you</p>
                                 <small>Now</small>
                             </div>
+                            {/* <Button 
+                                className="btn-accept"
+                                color="primary"
+                            >
+                                <Link to="/accept">Accept</Link>
+                            </Button> */}
+                            <Link
+                                className="btn btn-primary"
+                                to={`/accept`}>accept
+                                
+                            </Link>
                             <Button 
-                            className="btn-accept"
-                            color="primary">Accept</Button>{' '}
-                            <Button 
-                            className="btn-cancel"
-                            color="primary">Cancel</Button>{' '}
+                                className="btn-decline"
+                                color="primary"
+                                >Decline
+                            </Button>{' '}
                            
                         </a>
                         </div>
