@@ -90,3 +90,13 @@ hr.hr-create{
     margin-bottom: 0px;
     margin-left: 48px;
 }
+
+button.buttonadd{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+button.buttoncancel{
+    margin-top: 50px;
+    margin-left: 10px;
+}

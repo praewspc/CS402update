@@ -65,7 +65,7 @@ export const BlockHome_Student2 = () => {
                         <Row className="pdf3">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
                             <span className="pdf3-2">
-                                <a href="/project_inform">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
+                                <a href="/project_inform2">คลิกที่นี่เพื่อแจ้งข้อมูลเกี่ยวกับโครงงานวิชา คพ.401 และ คพ.402 ปีการศึกษา 2563 </a>
                             </span>
                             <div className="pdf3-3">Available Until 15 October 2020, 11:55 Pm</div>
                         </Row>
@@ -73,11 +73,11 @@ export const BlockHome_Student2 = () => {
                         <Row className="pdf4">
                             <span className="pdf2-1"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></span>
                             <span className="pdf2-2">
-                                <a href="https://docs.google.com/forms/d/132RzfKMzwtThyp3EqY5PA0EnTSQNTQq6m4M1BubK_NU/edit" 
-                                    class="text-decoration-none">
+                               
+                            <a href="/time2">
                                     คลิกที่นี่เพื่อแจ้งตารางสอบปลายภาค ภาคเรียนที่ 1 ปีการศึกษา 2563 (ต้องกรอกข้อมูลนี้ทุกคน)    
-                                    
-                                </a>
+                                </a>  
+                                
                             </span>
                             <div className="pdf3-3">Available Until 31 October 2020, 11:55 Pm</div>
                         </Row>

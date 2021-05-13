@@ -1,17 +1,16 @@
 import React from 'react';
-import './Project.css';
+import './MyGroup.css'
 import {Row } from 'react-bootstrap';
 import Sidebar from "./Components/Sidebar";
-import {Blockproject} from "./Components/Blockproject";
+import {BlockMyGroup} from "./Components/BlockMyGroup";
 
-function Project(){
+function MyGroup() {
     return (
         <Row>
             <Sidebar />
-            <Blockproject />
-           
+            <BlockMyGroup />
         </Row>
     );
-}
-
-export default Project ;
+  }
+  
+  export default MyGroup;

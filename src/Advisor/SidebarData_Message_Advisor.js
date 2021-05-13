@@ -3,8 +3,8 @@ import EmailIcon from '@material-ui/icons/Email';
 
 export const SidebarData_Message_Advisor = [
     {
-        title : "Message" ,
-        icon : <EmailIcon /> ,
-        link : "/message_a"
+        title : "Project List" ,
+        icon : <i class="fa fa-list-alt" aria-hidden="true"></i> ,
+        link : "/projectlist_a"
     },
 ];

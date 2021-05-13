@@ -1,4 +1,4 @@
-.rightblock_InformProject{
+.rightblockCSproject{
     margin: 0px;
     margin-left: 276px;
     width: 1275px;
@@ -9,10 +9,10 @@
     /* width: 500em;
     height: 58em; */
     /* background-color: burlywood; */
-
+   
 }
 
-.blockwhite_InformProject{
+.blockwhiteCSproject{
     height: 693px; 
     display: block;
     width: 1247px;
@@ -24,12 +24,12 @@
     margin-right: 14px;
     position: absolute;
     border-radius: 25px;
-    /* scroll-behavior: smooth; */
     display: block;
     overflow-y: auto;
     white-space: nowrap;
 }
-.Topname_InformProject{
+
+.TopnameCSproject{
     margin-top: 28px;
     margin-left: 48px;
     font-family: SF Pro Display;
@@ -38,7 +38,7 @@
     color: #2F4050;
 }
 
-hr.hr-InformProject{
+hr.hr-csproject{
     /* color: #134F71; */
     /* justify-items: center; */
     width: 1151px;
@@ -47,14 +47,9 @@ hr.hr-InformProject{
     margin-bottom: 0px;
     margin-left: 48px;
 }
-
-button.button123 {
-    margin-Left: 48px;
-    margin-Top: 40px;
-    margin-Bottom: 20px;
-}
-button.button456 {
-    margin-Bottom: 20px;
-    margin-Top: 40px;
-    margin-left: 10px;
-}
+button.buttonttt{
+     margin-right: 32px;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     float: right;
+ }

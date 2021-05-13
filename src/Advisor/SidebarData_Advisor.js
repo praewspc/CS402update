@@ -9,32 +9,32 @@ import SettingsIcon from '@material-ui/icons/Settings';
 export const SidebarData_Advisor = [
     {
         title : "Dashboard" ,
-        icon : <DashboardIcon /> ,
+        icon : <i class="fa fa-home fa-1x" aria-hidden="true"></i> ,
         link : "/home_a"
     },
-    // {
-    //     title : "Create Group" ,
-    //     icon : <AddBoxIcon /> ,
-    //     link : "/create_t"
-    // },
+    {
+        title : "Create Schedule" ,
+        icon : <i class="fa fa-plus-square fa-1x" aria-hidden="true"></i> ,
+        link : "/create_t"
+    },
     {
         title : "Group" ,
-        icon : <WorkIcon /> ,
+        icon : <i class="fa fa-users fa-1x" aria-hidden="true"></i> ,
         link : "/group_a"
     },
     {
         title : "My Group" ,
-        icon : <PlaylistAddCheckIcon /> ,
+        icon : <i class="fa fa-briefcase fa-1x" aria-hidden="true"></i> ,
         link : "/mygroup_a"
     },
     {
         title : "Calendar" ,
-        icon : <EventIcon /> ,
+        icon : <i class="fa fa-calendar fa-1x" aria-hidden="true"></i>,
         link : "/calendar_a"
     },
     {
         title : "Setting" ,
-        icon : <SettingsIcon /> ,
+        icon : <i class="fa fa-cog fa-1x" aria-hidden="true"></i> ,
         link : "/setting_a"
     },
 ];

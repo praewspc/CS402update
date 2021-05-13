@@ -1,16 +1,16 @@
 import React from 'react';
-import './Task.css' ;
+import './MyGroup.css' ;
 import {Row } from 'react-bootstrap';
 import Sidebar_Student2 from './Student2/Sidebar_Student2';
-import { BlockGroup } from './Student2/BlockGroup';
+import { BlockMyGroup2 } from './Student2/BlockMyGroup2';
 
-function Group_Student2() {
+function MyGroup_Student2() {
     return (
         <Row>
             <Sidebar_Student2 />
-            <BlockGroup />
+            <BlockMyGroup2 />
         </Row>
     );
   }
   
-  export default Group_Student2;
+  export default MyGroup_Student2;

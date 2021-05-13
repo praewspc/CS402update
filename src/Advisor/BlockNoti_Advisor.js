@@ -32,7 +32,7 @@ export const BlockNoti_Advisor = () => {
                                     
                                 </Link>
                                 <Button 
-                                    className="btn-cancel"
+                                    className="btn-decline"
                                     color="primary"
                                     >Decline
                                 </Button>{' '}

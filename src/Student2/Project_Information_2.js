@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 import "../Project_Information.css";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -17,6 +17,7 @@ import {
   Form,
   // Button
 } from "reactstrap";
+import Sidebar_Student2 from "./Sidebar_Student2";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-export const Project_Information = () => {
+export const Project_Information_2 = () => {
   const classes = useStyles();
 
 const [projnamethai, setprojnamethai] = useState("");
@@ -108,7 +109,7 @@ const addProject = () => {
     <Row className="content">
       <Col>
         {" "}
-        <Sidebar />{" "}
+        <Sidebar_Student2 />{" "}
       </Col>
 
       <Col>
@@ -282,7 +283,7 @@ const addProject = () => {
              
                 // onClick={handleSubmit}
               >
-                <Link to="/home">Cancel</Link>
+                <Link to="/home2">Cancel</Link>
               </Button>
             </Form>
           </div>
